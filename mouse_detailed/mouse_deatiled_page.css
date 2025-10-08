@@ -5,12 +5,13 @@
 
 }
 
-#product_des{
+
+.product_des{
     position: relative;
     top: 100px;
     left: 300px;
 }
-
+/*
 .balck_color{
     border: solid 3px yellow ;
 }
@@ -18,7 +19,7 @@
 #tech_specs_button_main{
 
 }
-
+*/
 #tech_specs_button{
     color: white;
     background-color: grey;
@@ -32,4 +33,4 @@
     background-color: rgb(243, 242, 242);
     border: 2px solid black;
     border-radius: 15px;
-}
+} 

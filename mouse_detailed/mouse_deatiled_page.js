@@ -1,8 +1,3 @@
-// function tech_spechs_detail_open() {
-//     console.log("Div clicked ✅");
-//     var tech_spechs = document.getElementById('tech_spechs_detail_');
-//     tech_spechs.style.display = "block";  // ab wo visible ho jayega
-// }
 
 
 function mouse_1() {
@@ -279,3 +274,13 @@ window.onload = function() {
 
     }
 };
+
+
+
+
+
+function tech_spechs_detail_open() {
+    console.log("Button clicked");
+    var tech_spechs = document.getElementById('tech_spechs_detail_');
+    tech_spechs.classList.toggle('d-none');
+}
