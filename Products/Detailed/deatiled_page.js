@@ -12,15 +12,15 @@ var product_detailed = [
         // "price": "$50",
         "image": "images/images.jpg",
 
-        "first_mouse_carosel_first_image": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image": "../../images/mouse/mouse_1.1.jpg",
+        "first_mouse_carosel_second_image": "../../images/mouse/mouse_1.2.jpg",
+        "first_mouse_carosel_third_image": "../../images/mouse/mouse_1.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../images/mouse/mouse_1.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image_": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image_": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image_": "../../images/mouse/mouse_1.1.jpg",
+        "first_mouse_carosel_second_image_": "../../images/mouse/mouse_1.2.jpg",
+        "first_mouse_carosel_third_image_": "../../images/mouse/mouse_1.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../images/mouse/mouse_1.4.jpg",
 
 
         "Model": "FG12, FG12S",
@@ -51,15 +51,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image": "../../images/mouse/mouse_2.1.jpg",
+        "first_mouse_carosel_second_image": "../../images/mouse/mouse_2.2.jpg",
+        "first_mouse_carosel_third_image": "../../images/mouse/mouse_2.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../images/mouse/mouse_2.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image_": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image_": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image_": "../../images/mouse/mouse_2.1.jpg",
+        "first_mouse_carosel_second_image_": "../../images/mouse/mouse_2.2.jpg",
+        "first_mouse_carosel_third_image_": "../../images/mouse/mouse_2.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../images/mouse/mouse_2.4.jpg",
 
 
         "Model": "FG12, FG12S",
@@ -90,15 +90,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image": "../../images/mouse/mouse_3.1.jpg",
+        "first_mouse_carosel_second_image": "../../images/mouse/mouse_3.2.jpg",
+        "first_mouse_carosel_third_image": "../../images/mouse/mouse_3.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../images/mouse/mouse_3.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image_": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image_": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image_": "../../images/mouse/mouse_3.1.jpg",
+        "first_mouse_carosel_second_image_": "../../images/mouse/mouse_3.2.jpg",
+        "first_mouse_carosel_third_image_": "../../images/mouse/mouse_3.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../images/mouse/mouse_3.4.jpg",
 
 
         "Model": "FG12, FG12S",
@@ -123,22 +123,22 @@ var product_detailed = [
 
     },
     // Mouse 4
-     {
+    {
         "id": 4,
         "name": "FG20 / FG20S",
         "description": "Mouse 3 Stylish.",
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image": "../../images/mouse/mouse_4.1.jpg",
+        "first_mouse_carosel_second_image": "../../images/mouse/mouse_4.2.jpg",
+        "first_mouse_carosel_third_image": "../../images/mouse/mouse_4.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../images/mouse/mouse_4.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image_": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image_": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image_": "../../images/mouse/mouse_4.1.jpg",
+        "first_mouse_carosel_second_image_": "../../images/mouse/mouse_4.2.jpg",
+        "first_mouse_carosel_third_image_": "../../images/mouse/mouse_4.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../images/mouse/mouse_4.4.jpg",
 
 
         "Model": "FG12, FG12S",
@@ -169,15 +169,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image": "../../images/mouse/mouse_5.1.jpg",
+        "first_mouse_carosel_second_image": "../../images/mouse/mouse_5.2.jpg",
+        "first_mouse_carosel_third_image": "../../images/mouse/mouse_5.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../images/mouse/mouse_5.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image_": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image_": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image_": "../../images/mouse/mouse_5.1.jpg",
+        "first_mouse_carosel_second_image_": "../../images/mouse/mouse_5.2.jpg",
+        "first_mouse_carosel_third_image_": "../../images/mouse/mouse_5.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../images/mouse/mouse_5.4.jpg",
 
 
         "Model": "FG12, FG12S",
@@ -201,7 +201,7 @@ var product_detailed = [
 
 
     },
-     // Mouse 6
+    // Mouse 6
     {
         "id": 6,
         "name": "FG15C Air2",
@@ -209,15 +209,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image": "../../images/mouse/mouse_6.1.jpg",
+        "first_mouse_carosel_second_image": "../../images/mouse/mouse_6.2.jpg",
+        "first_mouse_carosel_third_image": "../../images/mouse/mouse_6.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../images/mouse/mouse_6.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image_": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image_": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image_": "../../images/mouse/mouse_6.1.jpg",
+        "first_mouse_carosel_second_image_": "../../images/mouse/mouse_6.2.jpg",
+        "first_mouse_carosel_third_image_": "../../images/mouse/mouse_6.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../images/mouse/mouse_6.4.jpg",
 
 
         "Model": "FG12, FG12S",
@@ -241,7 +241,7 @@ var product_detailed = [
 
 
     },
-     // Mouse 7
+    // Mouse 7
     {
         "id": 7,
         "name": "FG10CS Air",
@@ -249,16 +249,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image": "../../images/mouse/mouse_7.1.jpg",
+        "first_mouse_carosel_second_image": "../../images/mouse/mouse_7.2.jpg",
+        "first_mouse_carosel_third_image": "../../images/mouse/mouse_7.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../images/mouse/mouse_7.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image_": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image_": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../images/mouse/mouse_1.4.jpg",
-
+        "first_mouse_carosel_first_image_": "../../images/mouse/mouse_7.1.jpg",
+        "first_mouse_carosel_second_image_": "../../images/mouse/mouse_7.2.jpg",
+        "first_mouse_carosel_third_image_": "../../images/mouse/mouse_7.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../images/mouse/mouse_7.4.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
@@ -281,7 +280,7 @@ var product_detailed = [
 
 
     },
-     // Mouse 8
+    // Mouse 8
     {
         "id": 8,
         "name": "FG10 / FG10S",
@@ -289,16 +288,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image": "../../images/mouse/mouse_8.1.jpg",
+        "first_mouse_carosel_second_image": "../../images/mouse/mouse_8.2.jpg",
+        "first_mouse_carosel_third_image": "../../images/mouse/mouse_8.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../images/mouse/mouse_8.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image_": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image_": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../images/mouse/mouse_1.4.jpg",
-
+        "first_mouse_carosel_first_image_": "../../images/mouse/mouse_8.1.jpg",
+        "first_mouse_carosel_second_image_": "../../images/mouse/mouse_8.2.jpg",
+        "first_mouse_carosel_third_image_": "../../images/mouse/mouse_8.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../images/mouse/mouse_8.4.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
@@ -321,7 +319,7 @@ var product_detailed = [
 
 
     },
-     // Mouse 9
+    // Mouse 9
     {
         "id": 9,
         "name": "FM45S Air",
@@ -329,15 +327,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image": "../../images/mouse/mouse_9.1.jpg",
+        "first_mouse_carosel_second_image": "../../images/mouse/mouse_9.2.jpg",
+        "first_mouse_carosel_third_image": "../../images/mouse/mouse_9.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../images/mouse/mouse_9.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image_": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image_": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image_": "../../images/mouse/mouse_9.1.jpg",
+        "first_mouse_carosel_second_image_": "../../images/mouse/mouse_9.2.jpg",
+        "first_mouse_carosel_third_image_": "../../images/mouse/mouse_9.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../images/mouse/mouse_9.4.jpg",
 
 
         "Model": "FG12, FG12S",
@@ -361,7 +359,7 @@ var product_detailed = [
 
 
     },
-     // Mouse 10
+    // Mouse 10
     {
         "id": 10,
         "name": "FM26 / FM26S",
@@ -369,15 +367,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image": "../../images/mouse/mouse_10.1.jpg",
+        "first_mouse_carosel_second_image": "../../images/mouse/mouse_10.2.jpg",
+        "first_mouse_carosel_third_image": "../../images/mouse/mouse_10.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../images/mouse/mouse_10.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../images/mouse/mouse_1.1.jpg",
-        "first_mouse_carosel_second_image_": "../images/mouse/mouse_1.2.jpg",
-        "first_mouse_carosel_third_image_": "../images/mouse/mouse_1.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../images/mouse/mouse_1.4.jpg",
+        "first_mouse_carosel_first_image_": "../../images/mouse/mouse_10.1.jpg",
+        "first_mouse_carosel_second_image_": "../../images/mouse/mouse_10.2.jpg",
+        "first_mouse_carosel_third_image_": "../../images/mouse/mouse_10.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../images/mouse/mouse_10.4.jpg",
 
 
         "Model": "FG12, FG12S",
@@ -411,37 +409,37 @@ const firstProduct = product_detailed.find(p => p.id === productId);
 // 🟩 Step 4: Agar product mil gaya to data show karo
 if (firstProduct) {
 
-document.getElementById("first_mouse_name").innerText = firstProduct.name;
-document.getElementById("first_mouse_des").innerText = firstProduct.description;
-document.getElementById("first_mouse_color").innerText = firstProduct.color;
-document.getElementById("Model").innerText = firstProduct.Model;
-document.getElementById("Type").innerText = firstProduct.Type;
-document.getElementById("Connection").innerText = firstProduct.Connection;
-document.getElementById("Operating Range").innerText = firstProduct["Operating Range"];
-document.getElementById("Ergonomic Design").innerText = firstProduct["Ergonomic Design"];
-document.getElementById("Sensor").innerText = firstProduct.Sensor;
-document.getElementById("Resolution").innerText = firstProduct.Resolution;
-document.getElementById("Report Rate").innerText = firstProduct["Report Rate"];
-document.getElementById("Buttons No").innerText = firstProduct["Buttons No"];
-document.getElementById("Receiver").innerText = firstProduct.Receiver;
-document.getElementById("Battery").innerText = firstProduct.Battery;
-document.getElementById("Size").innerText = firstProduct.Size;
-document.getElementById("Net Weight").innerText = firstProduct["Net Weight"];
-document.getElementById("System Requirements").innerText = firstProduct["System Requirements"];
+    document.getElementById("first_mouse_name").innerText = firstProduct.name;
+    document.getElementById("first_mouse_des").innerText = firstProduct.description;
+    document.getElementById("first_mouse_color").innerText = firstProduct.color;
+    document.getElementById("Model").innerText = firstProduct.Model;
+    document.getElementById("Type").innerText = firstProduct.Type;
+    document.getElementById("Connection").innerText = firstProduct.Connection;
+    document.getElementById("Operating Range").innerText = firstProduct["Operating Range"];
+    document.getElementById("Ergonomic Design").innerText = firstProduct["Ergonomic Design"];
+    document.getElementById("Sensor").innerText = firstProduct.Sensor;
+    document.getElementById("Resolution").innerText = firstProduct.Resolution;
+    document.getElementById("Report Rate").innerText = firstProduct["Report Rate"];
+    document.getElementById("Buttons No").innerText = firstProduct["Buttons No"];
+    document.getElementById("Receiver").innerText = firstProduct.Receiver;
+    document.getElementById("Battery").innerText = firstProduct.Battery;
+    document.getElementById("Size").innerText = firstProduct.Size;
+    document.getElementById("Net Weight").innerText = firstProduct["Net Weight"];
+    document.getElementById("System Requirements").innerText = firstProduct["System Requirements"];
 
-document.getElementById("first_mouse_carosel_first_image").src = firstProduct.first_mouse_carosel_first_image;
-document.getElementById("first_mouse_carosel_second_image").src = firstProduct.first_mouse_carosel_second_image;
-document.getElementById("first_mouse_carosel_third_image").src = firstProduct.first_mouse_carosel_third_image;
-document.getElementById("first_mouse_carosel_fourth_image").src = firstProduct.first_mouse_carosel_fourth_image;
+    document.getElementById("first_mouse_carosel_first_image").src = firstProduct.first_mouse_carosel_first_image;
+    document.getElementById("first_mouse_carosel_second_image").src = firstProduct.first_mouse_carosel_second_image;
+    document.getElementById("first_mouse_carosel_third_image").src = firstProduct.first_mouse_carosel_third_image;
+    document.getElementById("first_mouse_carosel_fourth_image").src = firstProduct.first_mouse_carosel_fourth_image;
 
-document.getElementById("first_mouse_carosel_first_image_").src = firstProduct.first_mouse_carosel_first_image_;
-document.getElementById("first_mouse_carosel_second_image_").src = firstProduct.first_mouse_carosel_second_image_;
-document.getElementById("first_mouse_carosel_third_image_").src = firstProduct.first_mouse_carosel_third_image_;
-document.getElementById("first_mouse_carosel_fourth_image_").src = firstProduct.first_mouse_carosel_fourth_image_;
+    document.getElementById("first_mouse_carosel_first_image_").src = firstProduct.first_mouse_carosel_first_image_;
+    document.getElementById("first_mouse_carosel_second_image_").src = firstProduct.first_mouse_carosel_second_image_;
+    document.getElementById("first_mouse_carosel_third_image_").src = firstProduct.first_mouse_carosel_third_image_;
+    document.getElementById("first_mouse_carosel_fourth_image_").src = firstProduct.first_mouse_carosel_fourth_image_;
 
-document.getElementById("first_mouse_Qunatity").innerText = firstProduct.first_mouse_Qunatity;
-document.getElementById("first_mouse_orignal_price").innerText = firstProduct.first_mouse_orignal_price;
-document.getElementById("first_mouse_cut_price").innerText = firstProduct.first_mouse_cut_price;
+    document.getElementById("first_mouse_Qunatity").innerText = firstProduct.first_mouse_Qunatity;
+    document.getElementById("first_mouse_orignal_price").innerText = firstProduct.first_mouse_orignal_price;
+    document.getElementById("first_mouse_cut_price").innerText = firstProduct.first_mouse_cut_price;
 
 
 }

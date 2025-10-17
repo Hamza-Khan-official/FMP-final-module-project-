@@ -1,0 +1,32 @@
+.recommendation-container { background-color: #EAEAEA; } 
+.recommendation-list-wrap { max-width: 1600px; margin: auto; padding: 150px 0px; } 
+.recommendation-list-title { margin-bottom: 45px; } 
+.recommendation-list-title p::after { content: ""; display: block; font-size: 36px; color: #333; text-align: center; font-weight: bold; } 
+.recommendation-list-inner { position: relative; width: 100%; overflow: hidden; } 
+.recommendation-list { width: 90%; overflow: hidden; margin: auto; /* width: 100%; */ } 
+.recommendation-list-ul { display: flex; flex-wrap: nowrap; transition: all .3s ease-in-out; } 
+.recommendation-item { width: 20%; flex-shrink: 0; } 
+.recommendation-item-wrap { height: 100%; margin: 0 10px; background-color: #fff; border-radius: 5px; } 
+.recommendation-item-link:hover .recommendation-item-image { transform: scale(1.03); } 
+.recommendation-item-link:hover .recommendation-item-info { color: #FFA509; } 
+.recommendation-item-image-wrap { display: flex; justify-content: center; padding-top: 40px; } 
+.recommendation-item-image { width: 60%; transition: all .3s ease-in-out; } 
+.recommendation-item-info-wrap { margin: 20px 15px; display: flex; flex-direction: column; } 
+.recommendation-item-info-model {font-weight: bold;font-size: 18px;} 
+.recommendation-item-info-title {color: #8d8d8d;font-size: 13px;} 
+.recommendation-control { position: absolute; top: 50%; cursor: pointer; transform: translate(0, -50%); } 
+.recommendation-control i { font-size: 73px; color: #646464; } 
+.recommendation-left { left: 0px; } 
+.recommendation-right { right: 0px; } 
+.recommendation-item-colors { padding: 0 10px 20px 15px; } 
+.recommendation-item-colors-list { display: flex; gap: 4px; flex-wrap: wrap; } 
+.recommendation-item-color a img { width: 20px; height: 20px; } @media (max-width: 1430px) { .recommendation-item { width: 25%; } 
+.recommendation-item-image { width: 75%; } 
+.recommendation-item-image-wrap { padding-top: 15px; } } @media (max-width: 1024px) { .recommendation-item { width: 33.33%; } 
+.recommendation-control i{ font-size: 40px; } 
+.recommendation-list-title p::after{ font-size: 24px; } 
+.recommendation-list-wrap{ padding: 50px 0; } 
+.recommendation-item-color a img{ width: 15px; height: 15px; } 
+.recommendation-item-info-wrap{ margin: 5px 10px; } 
+.recommendation-item-info{ line-height: 16px; } 
+.recommendation-item-info-model{margin: 5px 0;} .recommendation-item-colors{ padding: 0 10px 5px 15px; } } @media (max-width: 800px) { .recommendation-item { width: 50%; } }
