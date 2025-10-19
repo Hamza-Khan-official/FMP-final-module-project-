@@ -12,15 +12,15 @@ var product_detailed = [
         // "price": "$50",
         "image": "images/images.jpg",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_1.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_1.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_1.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_1.14.jpg",
+        "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_1.1.png",
+        "first_mouse_carosel_second_image": "../../../images/cooling_pads/pad_1.2.png",
+        "first_mouse_carosel_third_image": "../../../images/cooling_pads/pad_1.3.png",
+        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_1.4.png",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_1.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_1.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_1.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_1.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_1.1.png",
+        "first_mouse_carosel_second_image_": "../../../images/cooling_pads/pad_1.2.png",
+        "first_mouse_carosel_third_image_": "../../../images/cooling_pads/pad_1.3.png",
+        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_1.4.png",
 
 
         "Model": "FG12, FG12S",
@@ -51,15 +51,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_2.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_2.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_2.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_2.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_2.1.png",
+        "first_mouse_carosel_second_image": "../../../images/cooling_pads/pad_2.2.png",
+        "first_mouse_carosel_third_image": "../../../images/cooling_pads/pad_2.3.png",
+        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_2.4.png",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_2.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_2.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_2.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_2.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_2.1.png",
+        "first_mouse_carosel_second_image_": "../../../images/cooling_pads/pad_2.2.png",
+        "first_mouse_carosel_third_image_": "../../../images/cooling_pads/pad_2.3.png",
+        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_2.4.png",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
@@ -89,15 +89,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_3.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_3.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_3.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_3.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_3.1.png",
+        "first_mouse_carosel_second_image": "../../../images/cooling_pads/pad_3.2.png",
+        "first_mouse_carosel_third_image": "../../../images/cooling_pads/pad_3.3.png",
+        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_3.4.png",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_3.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_3.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_3.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_3.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_3.1.png",
+        "first_mouse_carosel_second_image_": "../../../images/cooling_pads/pad_3.2.png",
+        "first_mouse_carosel_third_image_": "../../../images/cooling_pads/pad_3.3.png",
+        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_3.4.png",
 
 
 
@@ -130,15 +130,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_4.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_4.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_4.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_4.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_4.1.png",
+        "first_mouse_carosel_second_image": "../../../images/cooling_pads/pad_4.2.png",
+        "first_mouse_carosel_third_image": "../../../images/cooling_pads/pad_4.3.png",
+        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_4.4.png",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_4.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_4.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_4.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_4.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_4.1.png",
+        "first_mouse_carosel_second_image_": "../../../images/cooling_pads/pad_4.2.png",
+        "first_mouse_carosel_third_image_": "../../../images/cooling_pads/pad_4.3.png",
+        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_4.4.png",
 
 
         "Model": "FG12, FG12S",
@@ -169,15 +169,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_5.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_5.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_5.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_5.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_5.1.png",
+        "first_mouse_carosel_second_image": "../../../images/cooling_pads/pad_5.2.png",
+        "first_mouse_carosel_third_image": "../../../images/cooling_pads/pad_5.3.png",
+        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_5.4.png",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_5.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_5.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_5.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_5.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_5.1.png",
+        "first_mouse_carosel_second_image_": "../../../images/cooling_pads/pad_5.2.png",
+        "first_mouse_carosel_third_image_": "../../../images/cooling_pads/pad_5.3.png",
+        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_5.4.png",
 
 
         "Model": "FG12, FG12S",
@@ -204,21 +204,20 @@ var product_detailed = [
     // Mouse 6
     {
         "id": 6,
-        "name": "FG15C Air2",
+        "name": "FG15C Air5",
         "description": "Mouse 5 Stylish.",
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_6.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_6.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_6.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_6.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_6.1.jpg",
+        "first_mouse_carosel_second_image": "../../../images/cooling_pads/pad_6.2.jpg",
+        "first_mouse_carosel_third_image": "../../../images/cooling_pads/pad_6.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_6.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_6.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_6.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_6.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_6.4.jpg",
-
+        "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_6.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../images/cooling_pads/pad_6.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../images/cooling_pads/pad_6.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_6.4.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
@@ -249,15 +248,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_7.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_7.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_7.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_7.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_7.1.jpg",
+        "first_mouse_carosel_second_image": "../../../images/cooling_pads/pad_7.2.jpg",
+        "first_mouse_carosel_third_image": "../../../images/cooling_pads/pad_7.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_7.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_7.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_7.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_7.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_7.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_7.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../images/cooling_pads/pad_7.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../images/cooling_pads/pad_7.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_7.4.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",

@@ -5,22 +5,22 @@
 var product_detailed = [
     {
         "id": 1,
-        "name": "FB45CS Air2",
+        "name": "FB45CS Air3",
         "description": "A stylish smartwatch with heart rate monitor.",
         "color": "black",
 
         // "price": "$50",
         "image": "images/images.jpg",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_1.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_1.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_1.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_1.14.jpg",
+        "first_mouse_carosel_first_image": "../../../../images/external_monitors/screen_1.1.jpg",
+        "first_mouse_carosel_second_image": "../../../../images/external_monitors/screen_1.2.jpg",
+        "first_mouse_carosel_third_image": "../../../../images/external_monitors/screen_1.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../../images/external_monitors/screen_1.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_1.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_1.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_1.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_1.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../../images/external_monitors/screen_1.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../../images/external_monitors/screen_1.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../../images/external_monitors/screen_1.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../../images/external_monitors/screen_1.4.jpg",
 
 
         "Model": "FG12, FG12S",
@@ -51,15 +51,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_2.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_2.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_2.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_2.4.jpg",
+        "first_mouse_carosel_first_image": "../../../../images/external_monitors/screen_2.1.jpg",
+        "first_mouse_carosel_second_image": "../../../../images/external_monitors/screen_2.2.jpg",
+        "first_mouse_carosel_third_image": "../../../../images/external_monitors/screen_2.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../../images/external_monitors/screen_2.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_2.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_2.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_2.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_2.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../../images/external_monitors/screen_2.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../../images/external_monitors/screen_2.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../../images/external_monitors/screen_2.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../../images/external_monitors/screen_2.4.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
@@ -89,15 +89,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_3.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_3.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_3.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_3.4.jpg",
+        "first_mouse_carosel_first_image": "../../../../images/external_monitors/screen_3.1.jpg",
+        "first_mouse_carosel_second_image": "../../../../images/external_monitors/screen_3.2.jpg",
+        "first_mouse_carosel_third_image": "../../../../images/external_monitors/screen_3.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../../images/external_monitors/screen_3.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_3.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_3.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_3.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_3.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../../images/external_monitors/screen_3.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../../images/external_monitors/screen_3.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../../images/external_monitors/screen_3.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../../images/external_monitors/screen_3.4.jpg",
 
 
 
@@ -130,15 +130,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_4.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_4.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_4.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_4.4.jpg",
+        "first_mouse_carosel_first_image": "../../../../images/external_monitors/screen_4.1.jpg",
+        "first_mouse_carosel_second_image": "../../../../images/external_monitors/screen_4.2.jpg",
+        "first_mouse_carosel_third_image": "../../../../images/external_monitors/screen_4.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../../images/external_monitors/screen_4.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_4.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_4.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_4.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_4.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../../images/external_monitors/screen_4.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../../images/external_monitors/screen_4.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../../images/external_monitors/screen_4.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../../images/external_monitors/screen_4.4.jpg",
 
 
         "Model": "FG12, FG12S",
@@ -169,15 +169,16 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_5.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_5.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_5.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_5.4.jpg",
+        "first_mouse_carosel_first_image": "../../../../images/external_monitors/screen_5.1.jpg",
+        "first_mouse_carosel_second_image": "../../../../images/external_monitors/screen_5.2.jpg",
+        "first_mouse_carosel_third_image": "../../../../images/external_monitors/screen_5.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../../images/external_monitors/screen_5.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_5.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_5.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_5.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_5.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../../images/external_monitors/screen_5.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../../images/external_monitors/screen_5.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../../images/external_monitors/screen_5.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../../images/external_monitors/screen_5.4.jpg",
+
 
 
         "Model": "FG12, FG12S",
@@ -209,15 +210,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_6.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_6.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_6.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_6.4.jpg",
+        "first_mouse_carosel_first_image": "../../../../images/external_monitors/screen_6.1.jpg",
+        "first_mouse_carosel_second_image": "../../../../images/external_monitors/screen_6.2.jpg",
+        "first_mouse_carosel_third_image": "../../../../images/external_monitors/screen_6.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../../images/external_monitors/screen_6.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_6.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_6.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_6.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_6.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../../images/external_monitors/screen_6.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../../images/external_monitors/screen_6.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../../images/external_monitors/screen_6.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../../images/external_monitors/screen_6.4.jpg",
 
 
         "Model": "FG12, FG12S",
@@ -249,15 +250,16 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_7.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_7.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_7.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_7.4.jpg",
+        "first_mouse_carosel_first_image": "../../../../images/external_monitors/screen_7.1.jpg",
+        "first_mouse_carosel_second_image": "../../../../images/external_monitors/screen_7.2.jpg",
+        "first_mouse_carosel_third_image": "../../../../images/external_monitors/screen_7.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../../images/external_monitors/screen_7.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_7.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_7.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_7.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_7.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../../images/external_monitors/screen_7.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../../images/external_monitors/screen_7.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../../images/external_monitors/screen_7.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../../images/external_monitors/screen_7.4.jpg",
+
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
@@ -288,15 +290,16 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_8.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_8.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_8.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_8.4.jpg",
+        "first_mouse_carosel_first_image": "../../../../images/external_monitors/screen_8.1.jpg",
+        "first_mouse_carosel_second_image": "../../../../images/external_monitors/screen_8.2.jpg",
+        "first_mouse_carosel_third_image": "../../../../images/external_monitors/screen_8.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../../images/external_monitors/screen_8.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_8.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_8.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_8.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_8.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../../images/external_monitors/screen_8.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../../images/external_monitors/screen_8.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../../images/external_monitors/screen_8.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../../images/external_monitors/screen_8.4.jpg",
+
         "Model": "FG12, FG12S",
         "Type": "Wireless",
         "Connection": "2.4G Hz",
@@ -326,15 +329,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_9.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_9.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_9.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_9.4.jpg",
+        "first_mouse_carosel_first_image": "../../../../images/external_monitors/screen_9.1.jpg",
+        "first_mouse_carosel_second_image": "../../../../images/external_monitors/screen_9.2.jpg",
+        "first_mouse_carosel_third_image": "../../../../images/external_monitors/screen_9.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../../images/external_monitors/screen_9.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_9.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_9.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_9.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_9.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../../images/external_monitors/screen_9.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../../images/external_monitors/screen_9.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../../images/external_monitors/screen_9.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../../images/external_monitors/screen_9.4.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
@@ -365,15 +368,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_10.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_10.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_10.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_10.4.jpg",
+        "first_mouse_carosel_first_image": "../../../../images/external_monitors/screen_10.1.jpg",
+        "first_mouse_carosel_second_image": "../../../../images/external_monitors/screen_10.2.jpg",
+        "first_mouse_carosel_third_image": "../../../../images/external_monitors/screen_10.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../../images/external_monitors/screen_10.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_10.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_10.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_10.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_10.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../../images/external_monitors/screen_10.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../../images/external_monitors/screen_10.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../../images/external_monitors/screen_10.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../../images/external_monitors/screen_10.4.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
