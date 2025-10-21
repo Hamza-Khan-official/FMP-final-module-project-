@@ -212,12 +212,12 @@ var product_detailed = [
         "first_mouse_carosel_first_image": "../../../images/mouse/mouse_6.1.jpg",
         "first_mouse_carosel_second_image": "../../../images/mouse/mouse_6.2.jpg",
         "first_mouse_carosel_third_image": "../../../images/mouse/mouse_6.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/mouse/mouse_6.4.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/mouse/mouse_6.2.jpg",
 
         "first_mouse_carosel_first_image_": "../../../images/mouse/mouse_6.1.jpg",
         "first_mouse_carosel_second_image_": "../../../images/mouse/mouse_6.2.jpg",
         "first_mouse_carosel_third_image_": "../../../images/mouse/mouse_6.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/mouse/mouse_6.4.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/mouse/mouse_6.2.jpg",
 
 
         "Model": "FG12, FG12S",

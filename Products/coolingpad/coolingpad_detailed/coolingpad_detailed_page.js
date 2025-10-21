@@ -15,12 +15,12 @@ var product_detailed = [
         "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_1.1.png",
         "first_mouse_carosel_second_image": "../../../images/cooling_pads/pad_1.2.png",
         "first_mouse_carosel_third_image": "../../../images/cooling_pads/pad_1.3.png",
-        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_1.4.png",
+        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_1.1.png",
 
         "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_1.1.png",
         "first_mouse_carosel_second_image_": "../../../images/cooling_pads/pad_1.2.png",
         "first_mouse_carosel_third_image_": "../../../images/cooling_pads/pad_1.3.png",
-        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_1.4.png",
+        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_1.1.png",
 
 
         "Model": "FG12, FG12S",
@@ -133,12 +133,12 @@ var product_detailed = [
         "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_4.1.png",
         "first_mouse_carosel_second_image": "../../../images/cooling_pads/pad_4.2.png",
         "first_mouse_carosel_third_image": "../../../images/cooling_pads/pad_4.3.png",
-        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_4.4.png",
+        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_4.1.png",
 
         "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_4.1.png",
         "first_mouse_carosel_second_image_": "../../../images/cooling_pads/pad_4.2.png",
         "first_mouse_carosel_third_image_": "../../../images/cooling_pads/pad_4.3.png",
-        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_4.4.png",
+        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_4.1.png",
 
 
         "Model": "FG12, FG12S",
@@ -169,12 +169,12 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_5.1.png",
+        // "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_5.1.jpg",
         "first_mouse_carosel_second_image": "../../../images/cooling_pads/pad_5.2.png",
         "first_mouse_carosel_third_image": "../../../images/cooling_pads/pad_5.3.png",
         "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_5.4.png",
 
-        "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_5.1.png",
+        // "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_5.1.jpg",
         "first_mouse_carosel_second_image_": "../../../images/cooling_pads/pad_5.2.png",
         "first_mouse_carosel_third_image_": "../../../images/cooling_pads/pad_5.3.png",
         "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_5.4.png",
@@ -251,12 +251,12 @@ var product_detailed = [
         "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_7.1.jpg",
         "first_mouse_carosel_second_image": "../../../images/cooling_pads/pad_7.2.jpg",
         "first_mouse_carosel_third_image": "../../../images/cooling_pads/pad_7.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_7.4.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_7.1.jpg",
 
         "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_7.1.jpg",
         "first_mouse_carosel_second_image_": "../../../images/cooling_pads/pad_7.2.jpg",
         "first_mouse_carosel_third_image_": "../../../images/cooling_pads/pad_7.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_7.4.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_7.1.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",

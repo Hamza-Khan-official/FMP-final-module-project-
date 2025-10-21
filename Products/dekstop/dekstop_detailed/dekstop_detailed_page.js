@@ -12,15 +12,15 @@ var product_detailed = [
         // "price": "$50",
         "image": "images/images.jpg",
 
-        "first_mouse_carosel_first_image": "../../../../images/Dekstop/dekstop_1.1.png",
-        "first_mouse_carosel_second_image": "../../../../images/Dekstop/dekstop_1.2.png",
-        "first_mouse_carosel_third_image": "../../../../images/Dekstop/dekstop_1.3.png",
-        "first_mouse_carosel_fourth_image": "../../../../images/Dekstop/dekstop_1.4.png",
+        "first_mouse_carosel_first_image": "../../../images/Dekstop/dekstop_1.1.png",
+        "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_1.2.png",
+        "first_mouse_carosel_third_image": "../../../images/Dekstop/dekstop_1.3.png",
+        "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_1.1png",
 
-        "first_mouse_carosel_first_image_": "../../../../images/Dekstop/dekstop_1.1.png",
-        "first_mouse_carosel_second_image_": "../../../../images/Dekstop/dekstop_1.2.png",
-        "first_mouse_carosel_third_image_": "../../../../images/Dekstop/dekstop_1.3.png",
-        "first_mouse_carosel_fourth_image_": "../../../../images/Dekstop/dekstop_1.4.png",
+        "first_mouse_carosel_first_image_": "../../../images/Dekstop/dekstop_1.1.png",
+        "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_1.2.png",
+        "first_mouse_carosel_third_image_": "../../../images/Dekstop/dekstop_1.3.png",
+        "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_1.1.png",
 
 
         "Model": "FG12, FG12S",
@@ -51,15 +51,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../../images/Dekstop/dekstop_2.1.jpg",
-        "first_mouse_carosel_second_image": "../../../../images/Dekstop/dekstop_2.2.jpg",
-        "first_mouse_carosel_third_image": "../../../../images/Dekstop/dekstop_2.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../../images/Dekstop/dekstop_2.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/Dekstop/dekstop_2.1.jpg",
+        "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_2.2.jpg",
+        "first_mouse_carosel_third_image": "../../../images/Dekstop/dekstop_2.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_2.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../../images/Dekstop/dekstop_2.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../../images/Dekstop/dekstop_2.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../../images/Dekstop/dekstop_2.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../../images/Dekstop/dekstop_2.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/Dekstop/dekstop_2.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_2.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../images/Dekstop/dekstop_2.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_2.4.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
@@ -89,15 +89,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../../images/Dekstop/dekstop_3.1.jpg",
-        "first_mouse_carosel_second_image": "../../../../images/Dekstop/dekstop_3.2.jpg",
-        "first_mouse_carosel_third_image": "../../../../images/Dekstop/dekstop_3.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../../images/Dekstop/dekstop_3.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/Dekstop/dekstop_3.1.jpg",
+        "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_3.2.jpg",
+        "first_mouse_carosel_third_image": "../../../images/Dekstop/dekstop_3.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_3.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../../images/Dekstop/dekstop_3.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../../images/Dekstop/dekstop_3.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../../images/Dekstop/dekstop_3.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../../images/Dekstop/dekstop_3.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/Dekstop/dekstop_3.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_3.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../images/Dekstop/dekstop_3.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_3.4.jpg",
 
 
 
@@ -130,15 +130,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_4.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_4.2.jpg",
-        "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_4.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_4.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/Dekstop/dekstop_4.1.jpg",
+        "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_4.2.jpg",
+        "first_mouse_carosel_third_image": "../../../images/Dekstop/dekstop_4.3.png",
+        "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_4.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_4.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_4.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_4.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_4.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/Dekstop/dekstop_4.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_4.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../images/Dekstop/dekstop_4.3.png",
+        "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_4.4.jpg",
 
 
         "Model": "FG12, FG12S",
@@ -169,15 +169,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../../images/Dekstop/dekstop_5.1.jpg",
-        "first_mouse_carosel_second_image": "../../../../images/Dekstop/dekstop_5.2.jpg",
-        "first_mouse_carosel_third_image": "../../../../images/Dekstop/dekstop_5.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../../images/Dekstop/dekstop_5.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/Dekstop/dekstop_5.1.jpg",
+        "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_5.2.jpg",
+        "first_mouse_carosel_third_image": "../../../images/Dekstop/dekstop_5.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_5.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../../images/Dekstop/dekstop_5.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../../images/Dekstop/dekstop_5.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../../images/Dekstop/dekstop_5.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../../images/Dekstop/dekstop_5.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/Dekstop/dekstop_5.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_5.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../images/Dekstop/dekstop_5.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_5.4.jpg",
 
 
 
@@ -210,15 +210,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../../images/Dekstop/dekstop_6.1.jpg",
-        "first_mouse_carosel_second_image": "../../../../images/Dekstop/dekstop_6.2.jpg",
-        "first_mouse_carosel_third_image": "../../../../images/Dekstop/dekstop_6.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../../images/Dekstop/dekstop_6.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/Dekstop/dekstop_6.1.jpg",
+        "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_6.2.jpg",
+        "first_mouse_carosel_third_image": "../../../images/Dekstop/dekstop_6.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_6.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../../images/Dekstop/dekstop_6.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../../images/Dekstop/dekstop_6.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../../images/Dekstop/dekstop_6.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../../images/Dekstop/dekstop_6.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/Dekstop/dekstop_6.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_6.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../images/Dekstop/dekstop_6.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_6.4.jpg",
 
 
 
@@ -251,15 +251,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../../images/Dekstop/dekstop_7.1.jpg",
-        "first_mouse_carosel_second_image": "../../../../images/Dekstop/dekstop_7.2.png",
-        "first_mouse_carosel_third_image": "../../../../images/Dekstop/dekstop_7.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../../images/Dekstop/dekstop_7.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/Dekstop/dekstop_7.1.jpg",
+        "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_7.2.png",
+        "first_mouse_carosel_third_image": "../../../images/Dekstop/dekstop_7.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_7.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../../images/Dekstop/dekstop_7.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../../images/Dekstop/dekstop_7.2.png",
-        "first_mouse_carosel_third_image_": "../../../../images/Dekstop/dekstop_7.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../../images/Dekstop/dekstop_7.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/Dekstop/dekstop_7.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_7.2.png",
+        "first_mouse_carosel_third_image_": "../../../images/Dekstop/dekstop_7.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_7.4.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
@@ -290,15 +290,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../../images/Dekstop/dekstop_8.1.jpg",
-        "first_mouse_carosel_second_image": "../../../../images/Dekstop/dekstop_8.2.jpg",
-        "first_mouse_carosel_third_image": "../../../../images/Dekstop/dekstop_8.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../../images/Dekstop/dekstop_8.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/Dekstop/dekstop_8.1.jpg",
+        "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_8.2.jpg",
+        "first_mouse_carosel_third_image": "../../../images/Dekstop/dekstop_8.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_8.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../../images/Dekstop/dekstop_8.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../../images/Dekstop/dekstop_8.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../../images/Dekstop/dekstop_8.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../../images/Dekstop/dekstop_8.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/Dekstop/dekstop_8.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_8.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../images/Dekstop/dekstop_8.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_8.4.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
@@ -329,15 +329,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../../images/Dekstop/dekstop_9.1.jpg",
-        "first_mouse_carosel_second_image": "../../../../images/Dekstop/dekstop_9.2.jpg",
-        "first_mouse_carosel_third_image": "../../../../images/Dekstop/dekstop_9.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../../images/Dekstop/dekstop_9.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/Dekstop/dekstop_9.1.jpg",
+        "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_9.2.jpg",
+        "first_mouse_carosel_third_image": "../../../images/Dekstop/dekstop_9.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_9.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../../images/Dekstop/dekstop_9.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../../images/Dekstop/dekstop_9.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../../images/Dekstop/dekstop_9.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../../images/Dekstop/dekstop_9.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/Dekstop/dekstop_9.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_9.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../images/Dekstop/dekstop_9.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_9.4.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
@@ -368,15 +368,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../../images/Dekstop/dekstop_10.1.jpg",
-        "first_mouse_carosel_second_image": "../../../../images/Dekstop/dekstop_10.2.jpg",
-        "first_mouse_carosel_third_image": "../../../../images/Dekstop/dekstop_10.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../../images/Dekstop/dekstop_10.4.jpg",
+        "first_mouse_carosel_first_image": "../../../images/Dekstop/dekstop_10.1.jpg",
+        "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_10.2.jpg",
+        "first_mouse_carosel_third_image": "../../../images/Dekstop/dekstop_10.3.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_10.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../../images/Dekstop/dekstop_10.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../../images/Dekstop/dekstop_10.2.jpg",
-        "first_mouse_carosel_third_image_": "../../../../images/Dekstop/dekstop_10.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../../images/Dekstop/dekstop_10.4.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/Dekstop/dekstop_10.1.jpg",
+        "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_10.2.jpg",
+        "first_mouse_carosel_third_image_": "../../../images/Dekstop/dekstop_10.3.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_10.4.jpg",
 
         "Model": "FG12, FG12S",
         "Type": "Wireless",
