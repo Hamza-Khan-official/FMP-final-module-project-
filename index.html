@@ -256,57 +256,65 @@
 
 
     <!-- Section FEATURED PRODUCT 2 OPENING -->
-<section class="featured-products">
-  <h2>Featured Products</h2>
+    <section class="featured-products">
+        <h2>Featured Products</h2>
 
-  <div class="d-flex flex-wrap justify-content-center">
+        <div class="d-flex flex-wrap justify-content-center">
 
-    <!-- Product 1 -->
-    <div class="feature-card">
-      <img src="images/mouse/main_mouse_.jpg" alt="Mouse">
-      <div class="feature-info">
-        <h5>Wireless Mouse</h5>
-        <p>Bluetooth / Rechargeable</p>
-        <div class="price">$19.99</div>
-        <button class="buy-btn">Buy Now</button>
-      </div>
-    </div>
+            <!-- Product 1 -->
+            <div class="feature-card">
+                <img src="images/mouse/main_mouse_.jpg" alt="Mouse">
+                <div class="feature-info">
+                    <h5>Wireless Mouse</h5>
+                    <p>Bluetooth / Rechargeable</p>
+                    <div class="price">$19.99</div>
+                    <a href="Products/mouse/mouse_detailed/mouse_deatiled_page.html?id=1">
+                        <button class="buy-btn">Buy Now</button>
+                    </a>
+                </div>
+            </div>
 
-    <!-- Product 2 -->
-    <div class="feature-card">
-      <img src="images/keyboard/main_.jpg" alt="Keyboard">
-      <div class="feature-info">
-        <h5>Mechanical Keyboard</h5>
-        <p>RGB Backlit / Blue Switch</p>
-        <div class="price">$49.99</div>
-        <button class="buy-btn">Buy Now</button>
-      </div>
-    </div>
+            <!-- Product 2 -->
+            <div class="feature-card">
+                <img src="images/keyboard/keyboard_5.jpg" alt="Keyboard">
+                <div class="feature-info">
+                    <h5>Mechanical Keyboard</h5>
+                    <p>RGB Backlit / Blue Switch</p>
+                    <div class="price">$49.99</div>
+                    <a href="Products/keyboard/keyboard_detailed/keyboard_detailed_page.html?id=5">
+                        <button class="buy-btn">Buy Now</button>
+                    </a>
+                </div>
+            </div>
 
-    <!-- Product 3 -->
-    <div class="feature-card">
-      <img src="images/Dekstop.jpg" alt="Desktop">
-      <div class="feature-info">
-        <h5>Gaming Desktop</h5>
-        <p>Intel i5 / 16GB RAM</p>
-        <div class="price">$899.00</div>
-        <button class="buy-btn">Buy Now</button>
-      </div>
-    </div>
+            <!-- Product 3 -->
+            <div class="feature-card">
+                <img src="images/Dekstop/dekstop_3.jpg" alt="Desktop">
+                <div class="feature-info">
+                    <h5>Gaming Desktop</h5>
+                    <p>Intel i5 / 16GB RAM</p>
+                    <div class="price">$899.00</div>
+                    <a href="Products/dekstop/dekstop_detailed/dekstop_detailed_page.html?id=3">
+                        <button class="buy-btn">Buy Now</button>
+                    </a>
+                </div>
+            </div>
 
-    <!-- Product 4 -->
-    <div class="feature-card">
-      <img src="images/audio/main_audio.jpg" alt="Headphones">
-      <div class="feature-info">
-        <h5>Noise Cancel Headphones</h5>
-        <p>Wireless / Deep Bass</p>
-        <div class="price">$79.99</div>
-        <button class="buy-btn">Buy Now</button>
-      </div>
-    </div>
+            <!-- Product 4 -->
+            <div class="feature-card">
+                <img src="images/audio/audio_1.jpg" alt="Headphones">
+                <div class="feature-info">
+                    <h5>Noise Cancel Headphones</h5>
+                    <p>Wireless / Deep Bass</p>
+                    <div class="price">$79.99</div>
+                    <a href="Products/audio/audio_detailed/audio_detailed_page.html?id=1">
+                        <button class="buy-btn">Buy Now</button>
+                    </a>
+                </div>
+            </div>
 
-  </div>
-</section>
+        </div>
+    </section>
 
     <!-- Section FEATURED PRODUCT 2 CLOSING -->
 
@@ -315,7 +323,7 @@
 
     <!-- footer opening -->
 
-    <div class="bg-dark text-white d-flex" style="height: 300px;">
+    <!-- <div class="bg-dark text-white d-flex" style="height: 300px;">
 
         <div class="m-5">
             <h4>Mouse</h4>
@@ -353,7 +361,6 @@
             </div>
         </div>
 
-
         <div class="m-5">
             <h4>Webcam</h4>
             <div class="text-white-50">
@@ -387,13 +394,26 @@
 
 
 
-    </div>
+    </div> -->
+
+
+
+    <!-- Footer Opening -->
+
+    <!-- footer.html alag file -->
+    <div id="footer"></div>
+    <script>
+        fetch('home/footer.html ')
+            .then(response => response.text())
+            .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
 
     <!-- footer Closing -->
 
 
 
     <script src="home/home_page.js"></script>
+    <script src="Products/mouse/mouse_detailed/mouse_deatiled_page.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
