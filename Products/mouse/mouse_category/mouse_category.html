@@ -67,30 +67,12 @@
     <!-- Carousel Openig -->
 
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../../../images/mouse/Mouse_banner_.jpeg" class="d-block w-100" alt="..."
-                    style="height: 420px; width: 1920px;">
-            </div>
-            <!-- <div class="carousel-item">
-                <img src="/images/carosel_2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/carosel_3.jpg" class="d-block w-100" alt="...">
-            </div> -->
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-
+    <div id="baanner_replacment"></div>
+    <script>
+        fetch('../mouse.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('baanner_replacment').innerHTML = data);
+    </script>
 
     <!-- Carousel Closing -->
 
@@ -220,80 +202,12 @@
 
     <!-- footer opening -->
 
-    <div class="bg-dark text-white d-flex" style="height: 300px;">
-
-        <div class="m-5">
-            <h4>Mouse</h4>
-            <div class="text-white-50">
-                <p>Bluetooth + 2.4G <br></p>
-                <p>2.4G Wireless <br> Mouse</p>
-                <p>Wired Mouse</p>
-            </div>
-        </div>
-
-        <div class="m-5">
-            <h4>Keyboard</h4>
-            <div class="text-white-50">
-                <p>Bluetooth / 2.4G <br> Keyboard</p>
-                <p> Wired Keyboard</p>
-            </div>
-        </div>
-
-        <div class="m-5">
-            <h4>Desktop</h4>
-            <div class="text-white-50">
-                <p>Bluetooth / 2.4G <br> Dekstop</p>
-                <p> Wired Dekstop</p>
-            </div>
-        </div>
-
-        <div class="m-5">
-            <h4>Audio</h4>
-            <div class="text-white-50">
-                <p>Bluetooth <br>Headphone</p>
-                <p>Headphone</p>
-                <p>TWS</p>
-                <p>Earphone</p>
-                <p>Cable</p>
-            </div>
-        </div>
-
-
-        <div class="m-5">
-            <h4>Webcam</h4>
-            <div class="text-white-50">
-                <p>UHD 2160P(4K)</p>
-                <p>HD 1080P</p>
-                <p>HD 720P</p>
-                <p>480P</p>
-            </div>
-        </div>
-
-        <div class="m-5">
-            <h4>Device</h4>
-            <div class="text-white-50">
-                <p>USB HUB</p>
-                <p>Mouse Pad</p>
-                <p>Laser Pen</p>
-                <p>Microphone</p>
-            </div>
-        </div>
-
-
-        <div class="m-5">
-            <h4>SUPPORT</h4>
-            <div class="text-white-50">
-                <p>Contact Us</p>
-                <p>Tech Support</p>
-                <p>FAQs</p>
-                <p>Download</p>
-            </div>
-        </div>
-
-
-
-    </div>
-
+    <div id="footer"></div>
+    <script>
+        fetch('../../../home/footer.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
     <!-- footer Closing -->
 
 
