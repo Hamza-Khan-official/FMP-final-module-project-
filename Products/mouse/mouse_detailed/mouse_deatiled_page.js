@@ -23,7 +23,7 @@ var product_detailed = [
         "first_mouse_carosel_fourth_image_": "../../../images/mouse/mouse_1.4.jpg",
 
 
-        "Model": "FG12, FG12S",
+        "Model": "FG12, FG12S22",
         "Type": "Wireless",
         "Connection": "2.4G Hz",
         "Operating Range": "10-15m",
@@ -101,7 +101,7 @@ var product_detailed = [
         "first_mouse_carosel_fourth_image_": "../../../images/mouse/mouse_3.4.jpg",
 
 
-        "Model": "FG12, FG12S",
+        "Model": "FG12, FG",
         "Type": "Wireless",
         "Connection": "2.4G Hz",
         "Operating Range": "10-15m",
@@ -437,15 +437,75 @@ if (firstProduct) {
     document.getElementById("first_mouse_carosel_third_image_").src = firstProduct.first_mouse_carosel_third_image_;
     document.getElementById("first_mouse_carosel_fourth_image_").src = firstProduct.first_mouse_carosel_fourth_image_;
 
-    document.getElementById("first_mouse_Qunatity").innerText = firstProduct.first_mouse_Qunatity;
-    document.getElementById("first_mouse_orignal_price").innerText = firstProduct.first_mouse_orignal_price;
-    document.getElementById("first_mouse_cut_price").innerText = firstProduct.first_mouse_cut_price;
+    // document.getElementById("first_mouse_Qunatity").innerText = firstProduct.first_mouse_Qunatity;
+    // document.getElementById("first_mouse_orignal_price").innerText = firstProduct.first_mouse_orignal_price;
+    // document.getElementById("first_mouse_cut_price").innerText = firstProduct.first_mouse_cut_price;
 
 
 }
 
 
 // -------------------------------------------CLOSEEEEEEEEEEEEEEEEE--------------------------------------------
+
+// ---------------------------------------------ADD TO CART-------------------------------------------------
+
+
+var firebaseConfig = {
+    apiKey: "AIzaSyDJRsEfO3b1Sd2EYpGqwYu-Qk5Xxju1BlE",
+    authDomain: "product-db-50ac7.firebaseapp.com",
+    databaseURL: "https://product-db-50ac7-default-rtdb.firebaseio.com",
+    projectId: "product-db-50ac7",
+    storageBucket: "product-db-50ac7.firebasestorage.app",
+    messagingSenderId: "628823687355",
+    appId: "1:628823687355:web:b39bed5fdc64df68c1699e",
+    measurementId: "G-8T0N4G4GLF"
+};
+
+// Initialize Firebase
+var app = firebase.initializeApp(firebaseConfig);
+var fb_db = firebase.database();
+
+
+var cart_store = [];
+var pro_db_id = Math.round(Math.random() * 67575);
+
+function add_to_cart() {
+
+    var model_name = document.getElementById('first_mouse_name').innerText;
+    var color = document.getElementById('first_mouse_color').textContent;
+    var image = document.getElementById('first_mouse_carosel_first_image').src;
+
+    // object
+    var cart_obj = {
+        id: pro_db_id,
+        pro_name: model_name,
+        pro_color: color,
+        pro_img: image,
+    }
+
+    // firebae push data
+    firebase.database().ref("products").child(pro_db_id).set(cart_obj);
+
+
+    // firebase get data
+    firebase
+        .database()
+        .ref("products")
+        .on("child_added", function (data) {
+        console.log(data.val());
+        
+
+})
+};  
+
+// console.log(cart_store);
+
+
+
+
+
+
+
 
 
 
