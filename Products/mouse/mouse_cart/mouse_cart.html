@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
+    <link rel="stylesheet" href="mouse_cart.css ">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- navbar openieng -->
+    <div id="Navbar"></div>
+    <script>
+        fetch('../../../home/navbar.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('Navbar').innerHTML = data);
+    </script>
+    </div>
+    <br><br><br><br><br>
+    <!-- navbar closing -->
+
+    <!-- <div class="container">
+        <h1></h1> -->
+        
+        <table id="cart_table">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Product Name</th>
+                    <th>Color</th>
+                    <th>ID</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Products will be dynamically added here -->
+            </tbody>
+        </table>
+    <!-- </div> -->
+
+
+    <!-- footer opeing -->
+
+    <br><br><br><br><br>
+
+    <div id="footer"></div>
+    <script>
+        fetch('../../../home/footer.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('footer').innerHTML = data);
+    </script>
+    </div>
+
+    <!-- footer closing -->
+
+
+
+    <script src="mouse_cart.js"></script>
+
+</body>
+
+</html>

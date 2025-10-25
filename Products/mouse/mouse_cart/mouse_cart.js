@@ -43,11 +43,21 @@ firebase
         var td_id = document.createElement("td");
         td_id.innerText = product.id;
 
+        // price
+        var td_price = document.createElement("td");
+        td_price.innerText = product.pro_price;
+
+        // Quantity
+        var td_quantity = document.createElement("td");
+        td_quantity.innerText = product.pro_quantity;
+
         // Append all columns to row
         create_tr.appendChild(td_img);
         create_tr.appendChild(td_name);
         create_tr.appendChild(td_color);
         create_tr.appendChild(td_id);
+        create_tr.appendChild(td_price);
+        create_tr.appendChild(td_quantity);
 
         // Append row to table
         document.getElementById("cart_table").appendChild(create_tr);

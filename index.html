@@ -21,7 +21,7 @@
 <body>
 
     <!-- Navbar Opening -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid mx-5">
             <a class="navbar-brand" href="#"><img id="logo" src="images/a4logo_2.svg" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -39,17 +39,6 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Contact US</a>
                     </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            all Products
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li> -->
                 </ul>
             </div>
             <input type="text" class="bg-light input_nav d-grid col-3 rounded-4" name="" id="input_nav">
@@ -62,7 +51,15 @@
                 </a>
             </div>
         </div>
-    </nav>
+    </nav> -->
+
+    <div id="Navbar"></div>
+    <script>
+        fetch('home/navbar.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('Navbar').innerHTML = data);
+    </script>
+    </div>
     <!-- Navbar Closing -->
 
 
@@ -407,6 +404,7 @@
             .then(response => response.text())
             .then(data => document.getElementById('footer').innerHTML = data);
     </script>
+    </div>
 
     <!-- footer Closing -->
 

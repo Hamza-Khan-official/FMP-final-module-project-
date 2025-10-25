@@ -38,7 +38,7 @@ var product_detailed = [
         "Net Weight": "83 g (w/ battery)",
         "System Requirements": "Windows 10/11",
 
-        "first_mouse_Qunatity": "2",
+        "first_mouse_Qunatity": "1",
         "first_mouse_orignal_price": "$1099",
         "first_mouse_cut_price": "1499",
     },
@@ -77,7 +77,7 @@ var product_detailed = [
         "Net Weight": "83 g (w/ battery)",
         "System Requirements": "Windows 10/11",
 
-        "first_mouse_Qunatity": "2",
+        "first_mouse_Qunatity": "1",
         "first_mouse_orignal_price": "$1099",
         "first_mouse_cut_price": "1299",
     },
@@ -116,7 +116,7 @@ var product_detailed = [
         "Net Weight": "83 g (w/ battery)",
         "System Requirements": "Windows 10/11",
 
-        "first_mouse_Qunatity": "2",
+        "first_mouse_Qunatity": "1",
         "first_mouse_orignal_price": "$1099",
         "first_mouse_cut_price": "1299",
 
@@ -156,7 +156,7 @@ var product_detailed = [
         "Net Weight": "83 g (w/ battery)",
         "System Requirements": "Windows 10/11",
 
-        "first_mouse_Qunatity": "2",
+        "first_mouse_Qunatity": "1",
         "first_mouse_orignal_price": "$1099",
         "first_mouse_cut_price": "1299",
     },
@@ -195,7 +195,7 @@ var product_detailed = [
         "Net Weight": "83 g (w/ battery)",
         "System Requirements": "Windows 10/11",
 
-        "first_mouse_Qunatity": "2",
+        "first_mouse_Qunatity": "1",
         "first_mouse_orignal_price": "$1099",
         "first_mouse_cut_price": "1299",
 
@@ -235,7 +235,7 @@ var product_detailed = [
         "Net Weight": "83 g (w/ battery)",
         "System Requirements": "Windows 10/11",
 
-        "first_mouse_Qunatity": "2",
+        "first_mouse_Qunatity": "1",
         "first_mouse_orignal_price": "$1099",
         "first_mouse_cut_price": "1299",
 
@@ -274,7 +274,7 @@ var product_detailed = [
         "Net Weight": "83 g (w/ battery)",
         "System Requirements": "Windows 10/11",
 
-        "first_mouse_Qunatity": "2",
+        "first_mouse_Qunatity": "1",
         "first_mouse_orignal_price": "$1099",
         "first_mouse_cut_price": "1299",
 
@@ -313,7 +313,7 @@ var product_detailed = [
         "Net Weight": "83 g (w/ battery)",
         "System Requirements": "Windows 10/11",
 
-        "first_mouse_Qunatity": "2",
+        "first_mouse_Qunatity": "1",
         "first_mouse_orignal_price": "$1099",
         "first_mouse_cut_price": "1299",
 
@@ -353,7 +353,7 @@ var product_detailed = [
         "Net Weight": "83 g (w/ battery)",
         "System Requirements": "Windows 10/11",
 
-        "first_mouse_Qunatity": "2",
+        "first_mouse_Qunatity": "1",
         "first_mouse_orignal_price": "$1099",
         "first_mouse_cut_price": "1299",
 
@@ -393,7 +393,7 @@ var product_detailed = [
         "Net Weight": "83 g (w/ battery)",
         "System Requirements": "Windows 10/11",
 
-        "first_mouse_Qunatity": "2",
+        "first_mouse_Qunatity": "1",
         "first_mouse_orignal_price": "$1099",
         "first_mouse_cut_price": "1299",
 
@@ -437,17 +437,23 @@ if (firstProduct) {
     document.getElementById("first_mouse_carosel_third_image_").src = firstProduct.first_mouse_carosel_third_image_;
     document.getElementById("first_mouse_carosel_fourth_image_").src = firstProduct.first_mouse_carosel_fourth_image_;
 
-    // document.getElementById("first_mouse_Qunatity").innerText = firstProduct.first_mouse_Qunatity;
-    // document.getElementById("first_mouse_orignal_price").innerText = firstProduct.first_mouse_orignal_price;
-    // document.getElementById("first_mouse_cut_price").innerText = firstProduct.first_mouse_cut_price;
+    document.getElementById("first_mouse_Qunatity").value = firstProduct.first_mouse_Qunatity;
+    document.getElementById("first_mouse_orignal_price").innerText = firstProduct.first_mouse_orignal_price;
+    document.getElementById("first_mouse_cut_price").innerText = firstProduct.first_mouse_cut_price;
 
 
+}
+
+function tech_spechs_detail_open() {
+    console.log("Button clicked");
+    var tech_spechs = document.getElementById('tech_spechs_detail_');
+    tech_spechs.classList.toggle('d-none');
 }
 
 
 // -------------------------------------------CLOSEEEEEEEEEEEEEEEEE--------------------------------------------
 
-// ---------------------------------------------ADD TO CART-------------------------------------------------
+// ---------------------------------------------ADD TO CART Push Data-------------------------------------------------
 
 
 var firebaseConfig = {
@@ -474,19 +480,36 @@ function add_to_cart() {
     var model_name = document.getElementById('first_mouse_name').innerText;
     var color = document.getElementById('first_mouse_color').textContent;
     var image = document.getElementById('first_mouse_carosel_first_image').src;
+    var price = document.getElementById('first_mouse_orignal_price').innerText;
+    var qunatity = document.getElementById('first_mouse_Qunatity').value;
+
 
     // object
     var cart_obj = {
-        id: pro_db_id,
+        id: productId,
         pro_name: model_name,
         pro_color: color,
         pro_img: image,
+        pro_price: price,
+        pro_quantity: qunatity,
     };
 
-    // firebae push data
-    firebase.database().ref("products").child(pro_db_id).set(cart_obj);
 
-};
+    if (cart_store.some(item => item.id === productId)) {
+        firebase.database().ref("products").child(pro_db_id).update({
+            pro_quantity: qunatity
+
+        })
+        console.log("quantity update");
+    }
+    else {
+        // Naya product add karo
+        firebase.database().ref("products").child(pro_db_id).set(cart_obj);
+        console.log("new create");
+    }
+}
+// firebae push data
+
 
 // Firebase get data
 // firebase
@@ -543,108 +566,3 @@ console.log(cart_store);
 
 
 
-
-
-
-// product_3
-// function Mouse_3() {
-
-//     let data_3 = {
-//         "products": [
-//             {
-//                 "name": "Mouse_5",
-//                 "description": "Mouse 5 Stylish.",
-//                 "color": "black",
-//                 "price": "$50",
-
-//                 "first_mouse_carosel_first_image": "../images/mouse/mouse_1.1.jpg",
-//                 "first_mouse_carosel_second_image": "../images/mouse/mouse_1.2.jpg",
-//                 "first_mouse_carosel_third_image": "../images/mouse/mouse_1.3.jpg",
-//                 "first_mouse_carosel_fourth_image": "../images/mouse/mouse_1.4.jpg",
-
-//                 "first_mouse_carosel_first_image_": "../images/mouse/mouse_1.1.jpg",
-//                 "first_mouse_carosel_second_image_": "../images/mouse/mouse_1.2.jpg",
-//                 "first_mouse_carosel_third_image_": "../images/mouse/mouse_1.3.jpg",
-//                 "first_mouse_carosel_fourth_image_": "../images/mouse/mouse_1.4.jpg",
-
-
-//                 "Model": "FG12, FG12S",
-//                 "Type": "Wireless",
-//                 "Connection": "2.4G Hz",
-//                 "Operating Range": "10-15m",
-//                 "Ergonomic Design": "Symmetric",
-//                 "Sensor": "Optical",
-//                 "Resolution": "1200 DPI",
-//                 "Report Rate": "125Hz",
-//                 "Buttons No": "3",
-//                 "Receiver": "Nano USB Receiver",
-//                 "Battery": "1AA Alkaline Battery",
-//                 "Size": "108(L) x 64(W) x 35(H) mm",
-//                 "Net Weight": "83 g (w/ battery)",
-//                 "System Requirements": "Windows 10/11",
-
-//                 "first_mouse_Qunatity": "2",
-//                 "first_mouse_orignal_price": "$1099",
-//                 "first_mouse_cut_price": "1299",
-
-
-//             },
-
-//         ],
-//     };
-
-//     let third_Product = data_3.products[0];
-
-//     document.getElementById("first_mouse_name").innerText = third_Product.name;
-//     document.getElementById("first_mouse_des").innerText = third_Product.description;
-//     document.getElementById("first_mouse_color").innerText = third_Product.color;
-//     document.getElementById("Model").innerText = third_Product.Model;
-//     document.getElementById("Type").innerText = third_Product.Type;
-//     document.getElementById("Connection").innerText = third_Product.Connection;
-//     document.getElementById("Operating Range").innerText = third_Product["Operating Range"];
-//     document.getElementById("Ergonomic Design").innerText = third_Product["Ergonomic Design"];
-//     document.getElementById("Sensor").innerText = third_Product.Sensor;
-//     document.getElementById("Resolution").innerText = third_Product.Resolution;
-//     document.getElementById("Report Rate").innerText = third_Product["Report Rate"];
-//     document.getElementById("Buttons No").innerText = third_Product["Buttons No"];
-//     document.getElementById("Receiver").innerText = third_Product.Receiver;
-//     document.getElementById("Battery").innerText = third_Product.Battery;
-//     document.getElementById("Size").innerText = third_Product.Size;
-//     document.getElementById("Net Weight").innerText = third_Product["Net Weight"];
-//     document.getElementById("System Requirements").innerText = third_Product["System Requirements"];
-
-//     document.getElementById("first_mouse_carosel_first_image").src = third_Product.first_mouse_carosel_first_image;
-//     document.getElementById("first_mouse_carosel_second_image").src = third_Product.first_mouse_carosel_second_image;
-//     document.getElementById("first_mouse_carosel_third_image").src = third_Product.first_mouse_carosel_third_image;
-//     document.getElementById("first_mouse_carosel_fourth_image").src = third_Product.first_mouse_carosel_fourth_image;
-
-//     document.getElementById("first_mouse_carosel_first_image_").src = third_Product.first_mouse_carosel_first_image_;
-//     document.getElementById("first_mouse_carosel_second_image_").src = third_Product.first_mouse_carosel_second_image_;
-//     document.getElementById("first_mouse_carosel_third_image_").src = third_Product.first_mouse_carosel_third_image_;
-//     document.getElementById("first_mouse_carosel_fourth_image_").src = third_Product.first_mouse_carosel_fourth_image_;
-
-//     document.getElementById("first_mouse_Qunatity").innerText = third_Product.first_mouse_Qunatity;
-//     document.getElementById("first_mouse_orignal_price").innerText = third_Product.first_mouse_orignal_price;
-//     document.getElementById("first_mouse_cut_price").innerText = third_Product.first_mouse_cut_price;
-// }
-// // Page load hone pe automatically function call hoga
-// window.onload = function () {
-//     const urlParams = new URLSearchParams(window.location.search);
-//     const productId = urlParams.get('product');
-
-//     if (productId === 'mouse_1') {
-//         mouse_1();
-
-//     } else if (productId === 'mouse_2') {
-//         mouse_2();
-
-//     } else if (productId === 'mouse_3') {
-//         Mouse_3();
-
-//     }
-// };
-function tech_spechs_detail_open() {
-    console.log("Button clicked");
-    var tech_spechs = document.getElementById('tech_spechs_detail_');
-    tech_spechs.classList.toggle('d-none');
-}
