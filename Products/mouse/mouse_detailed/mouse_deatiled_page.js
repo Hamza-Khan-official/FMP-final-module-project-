@@ -481,24 +481,52 @@ function add_to_cart() {
         pro_name: model_name,
         pro_color: color,
         pro_img: image,
-    }
+    };
 
     // firebae push data
     firebase.database().ref("products").child(pro_db_id).set(cart_obj);
 
+};
 
-    // firebase get data
-    firebase
-        .database()
-        .ref("products")
-        .on("child_added", function (data) {
-        console.log(data.val());
-        
+// Firebase get data
+// firebase
+//     .database()
+//     .ref("products")
+//     .on("child_added", function (data) {
+//         var product = data.val();  // Object mil gaya
 
-})
-};  
+//         var create_tr = document.createElement("tr");
 
-// console.log(cart_store);
+//         // Image column
+//         var td_img = document.createElement("td");
+//         var img = document.createElement("img");
+//         img.src = product.pro_img;
+//         img.width = 100;  // Size set karo
+//         td_img.appendChild(img);
+
+//         // Name column
+//         var td_name = document.createElement("td");
+//         td_name.innerText = product.pro_name;
+
+//         // Color column
+//         var td_color = document.createElement("td");
+//         td_color.innerText = product.pro_color;
+
+//         // ID column
+//         var td_id = document.createElement("td");
+//         td_id.innerText = product.id;
+
+//         // Append all columns to row
+//         create_tr.appendChild(td_img);
+//         create_tr.appendChild(td_name);
+//         create_tr.appendChild(td_color);
+//         create_tr.appendChild(td_id);
+
+//         // Append row to table
+//         document.getElementById("cart_table").appendChild(create_tr);
+//     });
+
+console.log(cart_store);
 
 
 
