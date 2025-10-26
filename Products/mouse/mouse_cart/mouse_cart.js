@@ -39,10 +39,6 @@ firebase
         var td_color = document.createElement("td");
         td_color.innerText = product.pro_color;
 
-        // ID column
-        var td_id = document.createElement("td");
-        td_id.innerText = product.id;
-
         // price
         var td_price = document.createElement("td");
         td_price.innerText = product.pro_price;
@@ -55,9 +51,8 @@ firebase
         create_tr.appendChild(td_img);
         create_tr.appendChild(td_name);
         create_tr.appendChild(td_color);
-        create_tr.appendChild(td_id);
-        create_tr.appendChild(td_price);
         create_tr.appendChild(td_quantity);
+        create_tr.appendChild(td_price);
 
         // Append row to table
         document.getElementById("cart_table").appendChild(create_tr);

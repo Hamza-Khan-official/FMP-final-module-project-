@@ -495,61 +495,67 @@ function add_to_cart() {
     };
 
 
-    if (cart_store.some(item => item.id === productId)) {
-        firebase.database().ref("products").child(pro_db_id).update({
-            pro_quantity: qunatity
-
-        })
-        console.log("quantity update");
+    firebase.database().ref("products").child(cart_obj.id).once('value')
+        .then(function (snapshot) {
+            if (snapshot.exists()) {
+                // Product pehle se hai
+                console.log("Product already in cart!");
+                firebase.database().ref("products").child(cart_obj.id).update({
+                    pro_quantity: qunatity
+                });
+                console
+            } else {
+                // Product nahi hai
+                console.log("Adding new product!");
+                firebase.database().ref("products").child(cart_obj.id).set(cart_obj);
+            }
+        });
     }
-    else {
-        // Naya product add karo
-        firebase.database().ref("products").child(pro_db_id).set(cart_obj);
-        console.log("new create");
-    }
-}
-// firebae push data
+    // firebase.database().ref("products").child(cart_obj.id).set(cart_obj);
 
 
-// Firebase get data
-// firebase
-//     .database()
-//     .ref("products")
-//     .on("child_added", function (data) {
-//         var product = data.val();  // Object mil gaya
+    // firebae push data
 
-//         var create_tr = document.createElement("tr");
 
-//         // Image column
-//         var td_img = document.createElement("td");
-//         var img = document.createElement("img");
-//         img.src = product.pro_img;
-//         img.width = 100;  // Size set karo
-//         td_img.appendChild(img);
+    // Firebase get data
+    // firebase
+    //     .database()
+    //     .ref("products")
+    //     .on("child_added", function (data) {
+    //         var product = data.val();  // Object mil gaya
 
-//         // Name column
-//         var td_name = document.createElement("td");
-//         td_name.innerText = product.pro_name;
+    //         var create_tr = document.createElement("tr");
 
-//         // Color column
-//         var td_color = document.createElement("td");
-//         td_color.innerText = product.pro_color;
+    //         // Image column
+    //         var td_img = document.createElement("td");
+    //         var img = document.createElement("img");
+    //         img.src = product.pro_img;
+    //         img.width = 100;  // Size set karo
+    //         td_img.appendChild(img);
 
-//         // ID column
-//         var td_id = document.createElement("td");
-//         td_id.innerText = product.id;
+    //         // Name column
+    //         var td_name = document.createElement("td");
+    //         td_name.innerText = product.pro_name;
 
-//         // Append all columns to row
-//         create_tr.appendChild(td_img);
-//         create_tr.appendChild(td_name);
-//         create_tr.appendChild(td_color);
-//         create_tr.appendChild(td_id);
+    //         // Color column
+    //         var td_color = document.createElement("td");
+    //         td_color.innerText = product.pro_color;
 
-//         // Append row to table
-//         document.getElementById("cart_table").appendChild(create_tr);
-//     });
+    //         // ID column
+    //         var td_id = document.createElement("td");
+    //         td_id.innerText = product.id;
 
-console.log(cart_store);
+    //         // Append all columns to row
+    //         create_tr.appendChild(td_img);
+    //         create_tr.appendChild(td_name);
+    //         create_tr.appendChild(td_color);
+    //         create_tr.appendChild(td_id);
+
+    //         // Append row to table
+    //         document.getElementById("cart_table").appendChild(create_tr);
+    //     });
+
+    console.log(cart_store);
 
 
 
