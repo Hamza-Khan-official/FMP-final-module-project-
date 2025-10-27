@@ -29,21 +29,28 @@
 
     <!-- <div class="container">
         <h1></h1> -->
-        
-        <table id="cart_table">
-            <thead>
-                <tr>
-                    <th>Image</th>
-                    <th>Product Name</th>
-                    <th>Color</th>
-                    <th>Quantity</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Products will be dynamically added here -->
-            </tbody>
-        </table>
+
+    <table id="cart_table">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Product Name</th>
+                <th>Color</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Products will be dynamically added here -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5" style="text-align: right;"><strong>Grand Total:</strong></td>
+                <td id="grand_total">$0.00</td>
+            </tr>
+        </tfoot>
+    </table>
     <!-- </div> -->
 
 

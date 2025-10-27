@@ -14,6 +14,8 @@ var app = firebase.initializeApp(firebaseConfig);
 var fb_db = firebase.database();
 
 console.log(fb_db);
+var total_ui_price = 0;
+
 
 
 firebase
@@ -21,6 +23,20 @@ firebase
     .ref("products")
     .on("child_added", function (data) {
         var product = data.val();  // Object mil gaya
+
+        var price = parseFloat(product.pro_price.replace('$', ''));
+        var quantity = parseInt(product.pro_quantity);  // ✅ Get quantity
+        var product_total = price * quantity;
+
+
+        total_ui_price += product_total;
+        document.getElementById("grand_total").innerText = "$" + total_ui_price.toFixed(2)
+
+
+        // console.log(total_ui_price);
+
+
+
 
         var create_tr = document.createElement("tr");
 
@@ -47,12 +63,17 @@ firebase
         var td_quantity = document.createElement("td");
         td_quantity.innerText = product.pro_quantity;
 
+        // Total Price
+        var td_total_price = document.createElement("td");
+        td_total_price.innerText = "$" + product_total.toFixed(2);
+
         // Append all columns to row
         create_tr.appendChild(td_img);
         create_tr.appendChild(td_name);
         create_tr.appendChild(td_color);
         create_tr.appendChild(td_quantity);
         create_tr.appendChild(td_price);
+        create_tr.appendChild(td_total_price);
 
         // Append row to table
         document.getElementById("cart_table").appendChild(create_tr);
