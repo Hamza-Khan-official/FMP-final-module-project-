@@ -4,7 +4,7 @@
 
 var product_detailed = [
     {
-        "id": 1,
+        "id": 31,
         "name": "FB45CS Air2",
         "description": "A stylish smartwatch with heart rate monitor.",
         "color": "black",
@@ -45,7 +45,7 @@ var product_detailed = [
 
     // id_2
     {
-        "id": 2,
+        "id": 32,
         "name": "FB35C / FB35CS",
         "description": "Mouse 3 Stylish.",
         "color": "black",
@@ -83,7 +83,7 @@ var product_detailed = [
 
     // id_3
     {
-        "id": 3,
+        "id": 33,
         "name": "FB26CS Air",
         "description": "Mouse 5 Stylish.",
         "color": "black",
@@ -124,7 +124,7 @@ var product_detailed = [
     },
     // Mouse 4
     {
-        "id": 4,
+        "id": 34,
         "name": "FG20 / FG20S",
         "description": "Mouse 3 Stylish.",
         "color": "black",
@@ -163,7 +163,7 @@ var product_detailed = [
 
     // Mouse 5
     {
-        "id": 5,
+        "id": 35,
         "name": "FG16CS Air2",
         "description": "Mouse 5 Stylish.",
         "color": "black",
@@ -202,7 +202,7 @@ var product_detailed = [
     },
     // Mouse 6
     {
-        "id": 6,
+        "id": 36,
         "name": "FG15C Air2",
         "description": "Mouse 5 Stylish.",
         "color": "black",
@@ -242,7 +242,7 @@ var product_detailed = [
     },
     // Mouse 7
     {
-        "id": 7,
+        "id": 37,
         "name": "FG10CS Air",
         "description": "Mouse 5 Stylish.",
         "color": "black",
@@ -281,7 +281,7 @@ var product_detailed = [
     },
     // Mouse 8
     {
-        "id": 8,
+        "id": 38,
         "name": "FG10 / FG10S",
         "description": "Mouse 5 Stylish.",
         "color": "black",
@@ -320,7 +320,7 @@ var product_detailed = [
     },
     // Mouse 9
     {
-        "id": 9,
+        "id": 39,
         "name": "FM45S Air",
         "description": "Mouse 5 Stylish.",
         "color": "black",
@@ -359,7 +359,7 @@ var product_detailed = [
     },
     // Mouse 10
     {
-        "id": 10,
+        "id": 40,
         "name": "FM26 / FM26S",
         "description": "Mouse 5 Stylish.",
         "color": "black",
