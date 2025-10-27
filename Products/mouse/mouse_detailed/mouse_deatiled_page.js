@@ -511,6 +511,7 @@ function add_to_cart() {
             }
         });
     }
+
     // firebase.database().ref("products").child(cart_obj.id).set(cart_obj);
 
 
@@ -555,7 +556,7 @@ function add_to_cart() {
     //         document.getElementById("cart_table").appendChild(create_tr);
     //     });
 
-    console.log(cart_store);
+    // console.log(cart_store);
 
 
 

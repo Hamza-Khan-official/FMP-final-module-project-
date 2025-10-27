@@ -449,3 +449,65 @@ function tech_spechs_detail_open() {
     var tech_spechs = document.getElementById('tech_spechs_detail_');
     tech_spechs.classList.toggle('d-none');
 }
+
+
+// -------------------------------------------CLOSEEEEEEEEEEEEEEEEE--------------------------------------------
+
+// ---------------------------------------------ADD TO CART Push Data-------------------------------------------------
+
+
+var firebaseConfig = {
+    apiKey: "AIzaSyDJRsEfO3b1Sd2EYpGqwYu-Qk5Xxju1BlE",
+    authDomain: "product-db-50ac7.firebaseapp.com",
+    databaseURL: "https://product-db-50ac7-default-rtdb.firebaseio.com",
+    projectId: "product-db-50ac7",
+    storageBucket: "product-db-50ac7.firebasestorage.app",
+    messagingSenderId: "628823687355",
+    appId: "1:628823687355:web:b39bed5fdc64df68c1699e",
+    measurementId: "G-8T0N4G4GLF"
+};
+
+// Initialize Firebase
+var app = firebase.initializeApp(firebaseConfig);
+var fb_db = firebase.database();
+
+
+var cart_store = [];
+// var pro_db_id = Math.round(Math.random() * 67575);
+
+function add_to_cart() {
+
+    var model_name = document.getElementById('first_mouse_name').innerText;
+    var color = document.getElementById('first_mouse_color').textContent;
+    var image = document.getElementById('first_mouse_carosel_first_image').src;
+    var price = document.getElementById('first_mouse_orignal_price').innerText;
+    var qunatity = document.getElementById('first_mouse_Qunatity').value;
+
+
+    // object
+    var cart_obj = {
+        id: productId,
+        pro_name: model_name,
+        pro_color: color,
+        pro_img: image,
+        pro_price: price,
+        pro_quantity: qunatity,
+    };
+
+
+    firebase.database().ref("products").child(cart_obj.id).once('value')
+        .then(function (snapshot) {
+            if (snapshot.exists()) {
+                // Product pehle se hai
+                console.log("Product already in cart!");
+                firebase.database().ref("products").child(cart_obj.id).update({
+                    pro_quantity: qunatity
+                });
+                console
+            } else {
+                // Product nahi hai
+                console.log("Adding new product!");
+                firebase.database().ref("products").child(cart_obj.id).set(cart_obj);
+            }
+        });
+    }
