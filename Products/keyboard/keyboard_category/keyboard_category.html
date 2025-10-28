@@ -16,50 +16,86 @@
 
     <!-- <link rel="stylesheet" href="/home/home_page.css"> -->
     <link rel="stylesheet" href="../../mouse/mouse_category/mouse_category.css">
+      <link rel="stylesheet" href="../../../home/nav/nav.css">
+
     <title>Document</title>
 </head>
 
 <body>
 
-    <!-- Navbar Opening -->
-    <div id="Navbar"></div>
-    <script>
-        fetch('../../../home/navbar.html')
-            .then(response => response.text())
-            .then(data => document.getElementById('Navbar').innerHTML = data);
-    </script>
-    </div>
+      <!-- Navbar Opening -->
+    <!-- Navbar -->
+    <nav id="Navbar" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid px-4">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="../../../images/a4logo_2.svg" alt="PhoneBot Logo" class="logo" style="height: 30px;">
+            </a>
+
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Search Bar -->
+                <div class="search-container mx-auto">
+                    <input type="text" class="search-input" placeholder="I'm shopping for...">
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+                <!-- Right Side Items -->
+                <div class="navbar-right d-flex align-items-center ms-auto">
+                    <!-- Call Us -->
+                    <div class="contact-item me-4">
+                        <span class="contact-label">Call us</span>
+                        <div class="contact-info">
+                            <i class="fas fa-phone-alt me-2"></i>
+                            <span class="contact-number">(03) 94626936</span>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp -->
+                    <div class="contact-item me-4">
+                        <span class="contact-label">On Whatsapp</span>
+                        <div class="contact-info">
+                            <i class="fab fa-whatsapp me-2"></i>
+                            <span class="contact-number">+61394626936</span>
+                        </div>
+                    </div>
+
+                    <!-- Login/Register -->
+                    <div class="auth-section me-4">
+                        <a href="#" class="auth-link">Login / Register</a>
+                        <div class="account-dropdown">
+                            <span>My Account</span>
+                            <i class="fas fa-chevron-down ms-1"></i>
+                        </div>
+                    </div>
+
+                    <!-- Cart -->
+                    <div class="cart-section">
+                        <a href="../../mouse/mouse_cart/mouse_cart.html" class="cart-link">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-text">Cart</span>
+                            <span class="cart-badge">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <!-- Navbar Closing -->
 
 
     <!-- Carousel Openig -->
 
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../../../images/keyboard/keyboard_banner_.jpeg" class="d-block w-100" alt="..."
-                    style="height: 420px; width: 1920px;">
-            </div>
-            <!-- <div class="carousel-item">
-                <img src="/images/carosel_2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="/images/carosel_3.jpg" class="d-block w-100" alt="...">
-            </div> -->
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-
-
+ 
     <!-- Carousel Closing -->
 
 
@@ -186,83 +222,79 @@
 
 
 
-    <!-- footer opening -->
+   <!-- footer opening -->
 
-    <div class="bg-dark text-white d-flex" style="height: 300px;">
+ <div id="footer" class="d-flex flex-wrap text-light justify-content-evenly"
+        style="height: 450px; background-color: #1e1e1e;">
 
-        <div class="m-5">
-            <h4>Mouse</h4>
-            <div class="text-white-50">
-                <p>Bluetooth + 2.4G <br></p>
-                <p>2.4G Wireless <br> Mouse</p>
-                <p>Wired Mouse</p>
+
+        <div id="main_footer_two" class="d-flex" style="border-bottom: 0.1px solid #696969">
+            <div id="sub_footer" class="col-4 mx-auto" style="margin-top: 100px;">
+                <img id="sub_footer" class="mb-4" src="../../../images/a4logo_2.svg" alt="" style=" height: 30px;">
+                <p id="sub_footer" class="w-75" style="color: #C1C1C1; font-size: 15px;">Sed ut perspiciatis unde omnis
+                    iste natus
+                    error
+                    sit
+                    voluptatem accusantium doloremque
+                    laudantium, totam
+                    rem aperiam.</p>
+                <i id="sub_footer" class="fa-brands fa-facebook-f m-1"></i>
+                <i id="sub_footer" class="fa-brands fa-instagram m-1"></i>
+                <i id="sub_footer" class="fa-brands fa-twitter m-1"></i>
+                <i id="sub_footer" class="fa-brands fa-youtube m-1"></i>
             </div>
+
+            <div class="col-2 sub_footer_two_div" style="margin-top: 100px;">
+                <h3 style="font-size: 20px; font-weight: 350; color: #FFFFFF;">Navigation</h3>
+                <div style="color: #C1C1C1; font-size: 14px;">
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Services</p>
+                    <p>Blog</p>
+                    <p>Contact</p>
+                </div>
+            </div>
+
+
+            <div class="col-2 sub_footer_third_div" style="margin-top: 100px;">
+                <h3 style="font-size: 20px; font-weight: 350; color: #FFFFFF;">Contact</h3>
+                <div style="color: #C1C1C1; font-size: 14px;">
+                    <p>87/A, Green lane, CA 6732</p>
+                    <p>Real State</p>
+                    <p></p>
+                    <p>+10 236 327 3782</p>
+                </div>
+
+            </div>
+
+            <div class="col-3" style="margin-top: 100px;">
+                <h3 style="font-size: 20px; font-weight: 350; color: #FFFFFF;">Subscribe Newsletter</h3>
+                <!-- <input placeholder="Enter Your Email" type=""><br> -->
+
+                <div class="d-grid gap-3 col-8 mb-3">
+                    <input placeholder="Enter Your Email"
+                        class="p-1 btn btn-dark border-1 border-light rounded-0"></input>
+                </div>
+
+                <div class="d-grid gap-2 col-8">
+                    <button class="btn btn-dark rounded-0 border-1 border-light" type="button">Subscibe</button>
+                </div>
+
+            </div>
+
+
         </div>
 
-        <div class="m-5">
-            <h4>Keyboard</h4>
-            <div class="text-white-50">
-                <p>Bluetooth / 2.4G <br> Keyboard</p>
-                <p> Wired Keyboard</p>
-            </div>
+        <div class="mt-4">
+            <p style="color: #afaaaa;">Copyright ©2025 All rights reserved | This template is made with 🤍 by
+                <span style="color: #FFFFFF;">Colorlib</span>
+            </p>
         </div>
-
-        <div class="m-5">
-            <h4>Desktop</h4>
-            <div class="text-white-50">
-                <p>Bluetooth / 2.4G <br> Dekstop</p>
-                <p> Wired Dekstop</p>
-            </div>
-        </div>
-
-        <div class="m-5">
-            <h4>Audio</h4>
-            <div class="text-white-50">
-                <p>Bluetooth <br>Headphone</p>
-                <p>Headphone</p>
-                <p>TWS</p>
-                <p>Earphone</p>
-                <p>Cable</p>
-            </div>
-        </div>
-
-
-        <div class="m-5">
-            <h4>Webcam</h4>
-            <div class="text-white-50">
-                <p>UHD 2160P(4K)</p>
-                <p>HD 1080P</p>
-                <p>HD 720P</p>
-                <p>480P</p>
-            </div>
-        </div>
-
-        <div class="m-5">
-            <h4>Device</h4>
-            <div class="text-white-50">
-                <p>USB HUB</p>
-                <p>Mouse Pad</p>
-                <p>Laser Pen</p>
-                <p>Microphone</p>
-            </div>
-        </div>
-
-
-        <div class="m-5">
-            <h4>SUPPORT</h4>
-            <div class="text-white-50">
-                <p>Contact Us</p>
-                <p>Tech Support</p>
-                <p>FAQs</p>
-                <p>Download</p>
-            </div>
-        </div>
-
-
 
     </div>
 
-    <!-- footer Closing -->
+
+    <!-- Footer Closing -->
 
 
 
