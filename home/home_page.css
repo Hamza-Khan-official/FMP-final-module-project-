@@ -51,7 +51,7 @@
 
     /* 🖼️ Image Section */
     .img-area {
-        height: 190px;
+        height: 220px;
         overflow: hidden;
         position: relative;
     }
@@ -65,7 +65,7 @@
 
     /* 🔍 Zoom Image on Hover */
     .custom-card:hover .img-area img {
-        transform: scale(1.2);
+        /* transform: scale(1.2); */
         filter: brightness(1.1);
     }
 
@@ -172,7 +172,7 @@
     /* === Image === */
     .feature-card img {
         width: 100%;
-        height: 170px;
+        height: 210px;
         object-fit: cover;
         transition: all 0.3s ease;
     }
