@@ -159,6 +159,36 @@
     .btn-success:hover {
       background-color: #13642d;
     }
+
+    #cart_mesage_main {
+      margin-top: 1%;
+      margin-left: 86%;
+      background-color: #69d847;
+      color: white;
+      position: fixed;
+      border-radius: 15px;
+      /* padding: 10px 30px 10px 10px; */
+    }
+
+    #quantity_cart_mesage {
+      margin-top: 1%;
+      margin-left: 86%;
+      background-color: #69d847;
+      color: white;
+      position: fixed;
+      border-radius: 15px;
+    }
+
+    #cart_message_button {
+      margin: auto;
+      color: white;
+    }
+
+    #close_butoon {
+      opacity: 0.8;
+      border: 2px solid grey;
+      border-radius: 50%;
+    }
   </style>
 </head>
 
@@ -222,7 +252,7 @@
             <a href="../../mouse/mouse_cart/mouse_cart.html" class="cart-link">
               <i class="fas fa-shopping-cart text-white"></i>
               <span class="cart-text text-light">Cart</span>
-              <span class="cart-badge">0</span>
+              <span id="cart_qunatity_num" class="cart-badge">0</span>
             </a>
           </div>
         </div>
@@ -231,6 +261,28 @@
   </nav>
 
   <!-- Navbar Closing -->
+
+  <!-- add to cart messgae new  -->
+  <div id="cart_mesage_main" class="d-none">
+    <button onclick="close_butoon()" id="close_butoon" type="button" class="d-block btn-close btn-close-black"
+      style="position: absolute; top: 5px; right: 3px; width: 10px; height: 10px; font-size: 8px;"></button>
+    <a href="">
+      <button id="cart_message_button" class="btn">
+        <span><i class="fa-regular fa-circle-check"></i></span> item added to cart
+      </button>
+    </a>
+  </div>
+
+  <div id="quantity_cart_mesage" class="d-none">
+    <button onclick="close_butoon()" id="close_butoon" type="button" class="d-block btn-close btn-close-black"
+      style="position: absolute; top: 5px; right: 3px; width: 10px; height: 10px; font-size: 8px;"></button>
+    <a href="">
+      <button id="cart_message_button" class="btn">
+        <span><i class="fa-regular fa-circle-check"></i></span> Qunatity Update
+      </button>
+    </a>
+  </div>
+
 
   <!-- Product Section -->
   <section class="product-section">
@@ -318,9 +370,6 @@
           Cart</button>
         <!-- </a> -->
       </div>
-
-      <button type="button" class="d-none" id="liveToastBtn">updated</button>
-
       <div class="toast-container position-fixed bottom-0 end-0 p-3">
         <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">

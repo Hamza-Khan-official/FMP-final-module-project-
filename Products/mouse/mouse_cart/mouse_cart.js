@@ -15,6 +15,7 @@ var fb_db = firebase.database();
 
 console.log(fb_db);
 var total_ui_price = 0;
+var cart_item_count = 0;
 
 
 
@@ -23,6 +24,7 @@ firebase
     .ref("products")
     .on("child_added", function (data) {
         var product = data.val();  // Object mil gaya
+        cart_item_count ++;
 
         var price = parseFloat(product.pro_price.replace('$', ''));
         var quantity = parseInt(product.pro_quantity);  // ✅ Get quantity
@@ -77,4 +79,10 @@ firebase
 
         // Append row to table
         document.getElementById("cart_table").appendChild(create_tr);
+        console.log(cart_item_count);
+
+        // cart qunatity;
+        var cart_qunatity_num = document.getElementById('cart_qunatity_num');
+        cart_qunatity_num.innerHTML = cart_item_count;
     });
+

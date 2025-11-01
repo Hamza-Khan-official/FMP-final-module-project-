@@ -451,6 +451,7 @@ function tech_spechs_detail_open() {
 }
 
 
+
 // -------------------------------------------CLOSEEEEEEEEEEEEEEEEE--------------------------------------------
 
 // ---------------------------------------------ADD TO CART Push Data-------------------------------------------------
@@ -499,26 +500,43 @@ function add_to_cart() {
         .then(function (snapshot) {
             if (snapshot.exists()) {
                 // Product pehle se hai
-                // console.log("Product already in cart!");
-                // var pop_up = document.getElementById('liveToastBtn');
-                pop_up.classList.remove('d-none');
+                var quantity_cart_mesage = document.getElementById('quantity_cart_mesage');
+                quantity_cart_mesage.classList.remove('d-none');
+                quantity_cart_mesage.classList.add('d-block');
+                console.log("add ho gaya!");
                 firebase.database().ref("products").child(cart_obj.id).update({
                     pro_quantity: qunatity
                 });
-                console
+                console.log('qunatity update ho gai!');
             } else {
                 // Product nahi hai
                 console.log("Adding new product!");
                 firebase.database().ref("products").child(cart_obj.id).set(cart_obj);
+                var cart_mesage_main = document.getElementById('cart_mesage_main');
+                cart_mesage_main.classList.remove('d-none');
+                cart_mesage_main.classList.add('d-block');
+                console.log("add ho gaya!");
             }
-            // ✅ Toast show karo
-            var toastElement = document.getElementById('liveToast');
-            var toast = new bootstrap.Toast(toastElement);
-            toast.show();
         });
 
-}
 
+};
+
+function cart_number() {
+    firebase.database().ref("products").once('value').then(function (allSnapshot) {
+
+        var count = allSnapshot.numChildren();
+        var cart_qunatity_num = document.getElementById('cart_qunatity_num');
+        cart_qunatity_num.innerText = count;
+    })
+};
+cart_number();
+
+function close_butoon() {
+    var close_butoon = document.getElementById('quantity_cart_mesage');
+    close_butoon.classList.remove('d-block');
+    close_butoon.classList.add('d-none');
+}
 // firebase.database().ref("products").child(cart_obj.id).set(cart_obj);
 
 
