@@ -522,14 +522,6 @@ function add_to_cart() {
 
 };
 
-function cart_number() {
-    firebase.database().ref("products").once('value').then(function (allSnapshot) {
-
-        var count = allSnapshot.numChildren();
-        var cart_qunatity_num = document.getElementById('cart_qunatity_num');
-        cart_qunatity_num.innerText = count;
-    })
-};
 cart_number();
 
 function close_butoon() {

@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- firebase dataBase -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -94,7 +99,7 @@
         <img width="100%" src="images/navbar_line.png" alt="">
     </a>
     <!-- navbar_line Closing -->
-    
+
     <!-- Carousel Openig -->
 
 
@@ -137,7 +142,7 @@
 
 
 
-    <div class="d-flex flex-wrap justify-content-center m-5">
+    <div id="nav_product" class="d-flex flex-wrap justify-content-center m-5">
 
         <!-- Card 1 -->
         <div class="custom-card m-4" onmouseover="detailed_button('btn1')" onmouseout="detailed_button_close('btn1')">
@@ -364,11 +369,11 @@
             <div class="col-2 sub_footer_two_div" style="margin-top: 100px;">
                 <h3 style="font-size: 20px; font-weight: 350; color: #FFFFFF;">Navigation</h3>
                 <div style="color: #C1C1C1; font-size: 14px;">
-                    <p>Home</p>
-                    <p>About</p>
-                    <p>Services</p>
-                    <p>Blog</p>
-                    <p>Contact</p>
+                    <a class="text-decoration-none" href="#nav_product" style="color: #c1c1c1; ;">Home</a><br><br>
+                    <a class="text-decoration-none" href="#" style="color: #c1c1c1; ;">Products</a><br><br>
+                    <a class="text-decoration-none" href="#" style="color: #c1c1c1; ;">Featured</a><br><br>
+                    <a class="text-decoration-none" href="#" style="color: #c1c1c1; ;">Blog</a><br><br>
+                    <a class="text-decoration-none" href="#" style="color: #c1c1c1; ;">Contact</a>
                 </div>
             </div>
 
