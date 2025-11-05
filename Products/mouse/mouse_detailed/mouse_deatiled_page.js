@@ -476,7 +476,28 @@ var fb_db = firebase.database();
 var cart_store = [];
 // var pro_db_id = Math.round(Math.random() * 67575);
 
+function close_butoon() {
+    // close button
+    var quantity_cart_mesage = document.getElementById('quantity_cart_mesage');
+    quantity_cart_mesage.classList.add('d-none');
+    quantity_cart_mesage.classList.remove('d-block');
+}
+
+function quantity_cart_mesage_stock() {
+    var quantity_cart_mesage_ = document.getElementById('quantity_cart_mesage_stock');
+    quantity_cart_mesage_.classList.add('d-none');
+    quantity_cart_mesage_.classList.remove('d-block');
+}
+
 function add_to_cart() {
+
+    var qunatity = document.getElementById('first_mouse_Qunatity').value;
+    
+    if (qunatity > 5) {
+        var quantity_cart_mesage_stock = document.getElementById('quantity_cart_mesage_stock');
+        quantity_cart_mesage_stock.classList.remove('d-none');
+        quantity_cart_mesage_stock.classList.add('d-block');
+    }
 
     var model_name = document.getElementById('first_mouse_name').innerText;
     var color = document.getElementById('first_mouse_color').textContent;
@@ -499,94 +520,39 @@ function add_to_cart() {
     firebase.database().ref("products").child(cart_obj.id).once('value')
         .then(function (snapshot) {
             if (snapshot.exists()) {
+
+
                 // Product pehle se hai
                 var quantity_cart_mesage = document.getElementById('quantity_cart_mesage');
                 quantity_cart_mesage.classList.remove('d-none');
                 quantity_cart_mesage.classList.add('d-block');
+
+
                 console.log("add ho gaya!");
                 firebase.database().ref("products").child(cart_obj.id).update({
                     pro_quantity: qunatity
                 });
                 console.log('qunatity update ho gai!');
+
+
+
             } else {
                 // Product nahi hai
                 console.log("Adding new product!");
                 firebase.database().ref("products").child(cart_obj.id).set(cart_obj);
-                var cart_mesage_main = document.getElementById('cart_mesage_main');
-                cart_mesage_main.classList.remove('d-none');
-                cart_mesage_main.classList.add('d-block');
+
+
+                // quantity button text change
+                var quantity_button_text = document.getElementById('quantity_button_text');
+                quantity_button_text.innerText = 'Item added to cart';
+
+                var quantity_cart_mesage = document.getElementById('quantity_cart_mesage');
+                quantity_cart_mesage.classList.remove('d-none');
+                quantity_cart_mesage.classList.add('d-block');
                 console.log("add ho gaya!");
             }
         });
-
-
 };
-
-cart_number();
-
-function close_butoon() {
-    var close_butoon = document.getElementById('quantity_cart_mesage');
-    close_butoon.classList.remove('d-block');
-    close_butoon.classList.add('d-none');
-}
-// firebase.database().ref("products").child(cart_obj.id).set(cart_obj);
-
-
-// firebae push data
-
-
-// Firebase get data
-// firebase
-//     .database()
-//     .ref("products")
-//     .on("child_added", function (data) {
-//         var product = data.val();  // Object mil gaya
-
-//         var create_tr = document.createElement("tr");
-
-//         // Image column
-//         var td_img = document.createElement("td");
-//         var img = document.createElement("img");
-//         img.src = product.pro_img;
-//         img.width = 100;  // Size set karo
-//         td_img.appendChild(img);
-
-//         // Name column
-//         var td_name = document.createElement("td");
-//         td_name.innerText = product.pro_name;
-
-//         // Color column
-//         var td_color = document.createElement("td");
-//         td_color.innerText = product.pro_color;
-
-//         // ID column
-//         var td_id = document.createElement("td");
-//         td_id.innerText = product.id;
-
-//         // Append all columns to row
-//         create_tr.appendChild(td_img);
-//         create_tr.appendChild(td_name);
-//         create_tr.appendChild(td_color);
-//         create_tr.appendChild(td_id);
-
-//         // Append row to table
-//         document.getElementById("cart_table").appendChild(create_tr);
-//     });
-
-// console.log(cart_store);
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

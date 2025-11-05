@@ -365,12 +365,12 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_10.1.jpg",
+        "first_mouse_carosel_first_image": "../../../images/keyboard/keyboard_10.4.jpg",
         "first_mouse_carosel_second_image": "../../../images/keyboard/keyboard_10.2.jpg",
         "first_mouse_carosel_third_image": "../../../images/keyboard/keyboard_10.3.jpg",
         "first_mouse_carosel_fourth_image": "../../../images/keyboard/keyboard_10.4.jpg",
 
-        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_10.1.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/keyboard/keyboard_10.4.jpg",
         "first_mouse_carosel_second_image_": "../../../images/keyboard/keyboard_10.2.jpg",
         "first_mouse_carosel_third_image_": "../../../images/keyboard/keyboard_10.3.jpg",
         "first_mouse_carosel_fourth_image_": "../../../images/keyboard/keyboard_10.4.jpg",

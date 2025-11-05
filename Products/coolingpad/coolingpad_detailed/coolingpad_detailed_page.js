@@ -169,15 +169,15 @@ var product_detailed = [
         "color": "black",
         "price": "$50",
 
-        // "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_5.1.jpg",
+        "first_mouse_carosel_first_image": "../../../images/cooling_pads/pad_5.3.png",
         "first_mouse_carosel_second_image": "../../../images/cooling_pads/pad_5.2.png",
         "first_mouse_carosel_third_image": "../../../images/cooling_pads/pad_5.3.png",
-        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_5.4.png",
+        "first_mouse_carosel_fourth_image": "../../../images/cooling_pads/pad_5.2.png",
 
-        // "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_5.1.jpg",
+        "first_mouse_carosel_first_image_": "../../../images/cooling_pads/pad_5.3.png",
         "first_mouse_carosel_second_image_": "../../../images/cooling_pads/pad_5.2.png",
         "first_mouse_carosel_third_image_": "../../../images/cooling_pads/pad_5.3.png",
-        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_5.4.png",
+        "first_mouse_carosel_fourth_image_": "../../../images/cooling_pads/pad_5.2.png",
 
 
         "Model": "FG12, FG12S",

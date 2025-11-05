@@ -173,22 +173,116 @@
     #quantity_cart_mesage {
       margin-top: 1%;
       margin-left: 86%;
-      background-color: #69d847;
+      background-color: #22c55e;
       color: white;
       position: fixed;
-      border-radius: 15px;
+      border-radius: 8px;
+      padding: 12px 40px 12px 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      max-width: 350px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-    #cart_message_button {
-      margin: auto;
+    #quantity_cart_mesage_stock {
+      margin-top: 1%;
+      margin-left: 86%;
+      background-color: #c54b22;
       color: white;
+      position: fixed;
+      border-radius: 8px;
+      padding: 12px 40px 12px 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      max-width: 350px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #quantity_cart_mesage i {
+      font-size: 20px;
+    }
+
+    .success-message {
+      font-size: 15px;
+      font-weight: 500;
+      white-space: nowrap;
     }
 
     #close_butoon {
-      opacity: 0.8;
-      border: 2px solid grey;
-      border-radius: 50%;
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      line-height: 1;
+      opacity: 1;
     }
+
+    #close_butoon:hover {
+      opacity: 0.8;
+    }
+
+    #quantity_cart_mesage_stock {
+      margin-top: 1%;
+      margin-left: 86%;
+      background-color: #ef4444;
+      color: white;
+      position: fixed;
+      border-radius: 8px;
+      padding: 12px 40px 12px 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      max-width: 400px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      z-index: 9999;
+    }
+
+    .alert-icon {
+      width: 24px;
+      height: 24px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+/* 
+    .alert-icon::after {
+      content: "!";
+      color: #ef4444;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .alert-message {
+      font-size: 15px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    #close_stock_alert {
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+      line-height: 1;
+      opacity: 1;
+    }
+
+    #close_stock_alert:hover {
+      opacity: 0.8;
+    } */
   </style>
 </head>
 
@@ -263,24 +357,23 @@
   <!-- Navbar Closing -->
 
   <!-- add to cart messgae new  -->
-  <div id="cart_mesage_main" class="d-none">
-    <button onclick="close_butoon()" id="close_butoon" type="button" class="d-block btn-close btn-close-black"
-      style="position: absolute; top: 5px; right: 3px; width: 10px; height: 10px; font-size: 8px;"></button>
-    <a href="">
-      <button id="cart_message_button" class="btn">
-        <span><i class="fa-regular fa-circle-check"></i></span> item added to cart
-      </button>
-    </a>
-  </div>
+  <!-- <div id="quantity_cart_mesage" class="d-none">
+    <i class="fa-regular fa-circle-check"></i>
+    <span class="success-message">add new product</span>
+    <button onclick="close_butoon()" id="close_butoon" class="d-block" type="button">×</button>
+  </div> -->
 
   <div id="quantity_cart_mesage" class="d-none">
-    <button onclick="close_butoon()" id="close_butoon" type="button" class="d-block btn-close btn-close-black"
-      style="position: absolute; top: 5px; right: 3px; width: 10px; height: 10px; font-size: 8px;"></button>
-    <a href="">
-      <button id="cart_message_button" class="btn">
-        <span><i class="fa-regular fa-circle-check"></i></span> Qunatity Update
-      </button>
-    </a>
+    <i class="fa-regular fa-circle-check"></i>
+    <span id="quantity_button_text" class="success-message"></span>
+    <button onclick="close_butoon()" id="close_butoon" type="button">×</button>
+  </div>
+
+  <!-- Stock Alert Notification -->
+  <div id="quantity_cart_mesage_stock" class="d-none">
+    <div class="alert-icon"></div>
+    <span class="alert-message" class="success-message">Quantity cannot exceed available stock</span>
+    <button onclick="close_stock_alert()" id="close_stock_alert" type="button">×</button>
   </div>
 
 
@@ -355,7 +448,7 @@
 
       <div class="mt-5">
         <fieldset> Qunatity:
-          <input id="first_mouse_Qunatity" type="number" value="" min="1" max="5" class="form-control w-25 mb-3">
+          <input id="first_mouse_Qunatity" type="number" value="" min="1" max="" class="form-control w-25 mb-3">
         </fieldset>
         <div class="price-area">
           <!-- <h2 id=""></h2><br> -->
@@ -372,15 +465,7 @@
       </div>
       <div class="toast-container position-fixed bottom-0 end-0 p-3">
         <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-          <div class="toast-header">
-            <img src="..." class="rounded me-2" alt="...">
-            <strong class="me-auto">Bootstrap</strong>
-            <small>11 mins ago</small>
-            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-          </div>
-          <div class="toast-body">
-            Hello, world! This is a toast message.
-          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
         </div>
       </div>
     </div>

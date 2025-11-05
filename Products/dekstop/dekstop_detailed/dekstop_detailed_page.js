@@ -172,12 +172,12 @@ var product_detailed = [
         "first_mouse_carosel_first_image": "../../../images/Dekstop/dekstop_5.1.jpg",
         "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_5.2.jpg",
         "first_mouse_carosel_third_image": "../../../images/Dekstop/dekstop_5.3.jpg",
-        "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_5.4.jpg",
+        "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_5.2.jpg",
 
         "first_mouse_carosel_first_image_": "../../../images/Dekstop/dekstop_5.1.jpg",
         "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_5.2.jpg",
         "first_mouse_carosel_third_image_": "../../../images/Dekstop/dekstop_5.3.jpg",
-        "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_5.4.jpg",
+        "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_5.2.jpg",
 
 
 
@@ -252,12 +252,12 @@ var product_detailed = [
         "price": "$50",
 
         "first_mouse_carosel_first_image": "../../../images/Dekstop/dekstop_7.1.jpg",
-        "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_7.2.png",
+        "first_mouse_carosel_second_image": "../../../images/Dekstop/dekstop_7.4.jpg",
         "first_mouse_carosel_third_image": "../../../images/Dekstop/dekstop_7.3.jpg",
         "first_mouse_carosel_fourth_image": "../../../images/Dekstop/dekstop_7.4.jpg",
 
         "first_mouse_carosel_first_image_": "../../../images/Dekstop/dekstop_7.1.jpg",
-        "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_7.2.png",
+        "first_mouse_carosel_second_image_": "../../../images/Dekstop/dekstop_7.4.jpg",
         "first_mouse_carosel_third_image_": "../../../images/Dekstop/dekstop_7.3.jpg",
         "first_mouse_carosel_fourth_image_": "../../../images/Dekstop/dekstop_7.4.jpg",
 
