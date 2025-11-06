@@ -185,21 +185,6 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
-    #quantity_cart_mesage_stock {
-      margin-top: 1%;
-      margin-left: 86%;
-      background-color: #c54b22;
-      color: white;
-      position: fixed;
-      border-radius: 8px;
-      padding: 12px 40px 12px 15px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      max-width: 350px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
     #quantity_cart_mesage i {
       font-size: 20px;
     }
@@ -227,62 +212,6 @@
       opacity: 0.8;
     }
 
-    #quantity_cart_mesage_stock {
-      margin-top: 1%;
-      margin-left: 86%;
-      background-color: #ef4444;
-      color: white;
-      position: fixed;
-      border-radius: 8px;
-      padding: 12px 40px 12px 15px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      max-width: 400px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      z-index: 9999;
-    }
-
-    .alert-icon {
-      width: 24px;
-      height: 24px;
-      background-color: white;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-/* 
-    .alert-icon::after {
-      content: "!";
-      color: #ef4444;
-      font-weight: bold;
-      font-size: 18px;
-    }
-
-    .alert-message {
-      font-size: 15px;
-      font-weight: 500;
-      white-space: nowrap;
-    }
-
-    #close_stock_alert {
-      position: absolute;
-      top: 8px;
-      right: 10px;
-      background: none;
-      border: none;
-      color: white;
-      font-size: 20px;
-      cursor: pointer;
-      line-height: 1;
-      opacity: 1;
-    }
-
-    #close_stock_alert:hover {
-      opacity: 0.8;
-    } */
   </style>
 </head>
 
@@ -356,26 +285,12 @@
 
   <!-- Navbar Closing -->
 
-  <!-- add to cart messgae new  -->
-  <!-- <div id="quantity_cart_mesage" class="d-none">
-    <i class="fa-regular fa-circle-check"></i>
-    <span class="success-message">add new product</span>
-    <button onclick="close_butoon()" id="close_butoon" class="d-block" type="button">×</button>
-  </div> -->
-
+  <!-- add to cart messgae -->
   <div id="quantity_cart_mesage" class="d-none">
     <i class="fa-regular fa-circle-check"></i>
     <span id="quantity_button_text" class="success-message"></span>
     <button onclick="close_butoon()" id="close_butoon" type="button">×</button>
   </div>
-
-  <!-- Stock Alert Notification -->
-  <div id="quantity_cart_mesage_stock" class="d-none">
-    <div class="alert-icon"></div>
-    <span class="alert-message" class="success-message">Quantity cannot exceed available stock</span>
-    <button onclick="close_stock_alert()" id="close_stock_alert" type="button">×</button>
-  </div>
-
 
   <!-- Product Section -->
   <section class="product-section">

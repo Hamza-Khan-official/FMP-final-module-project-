@@ -483,16 +483,10 @@ function close_butoon() {
     quantity_cart_mesage.classList.remove('d-block');
 }
 
-function quantity_cart_mesage_stock() {
-    var quantity_cart_mesage_ = document.getElementById('quantity_cart_mesage_stock');
-    quantity_cart_mesage_.classList.add('d-none');
-    quantity_cart_mesage_.classList.remove('d-block');
-}
-
 function add_to_cart() {
 
     var qunatity = document.getElementById('first_mouse_Qunatity').value;
-    
+
     if (qunatity > 5) {
         var quantity_cart_mesage_stock = document.getElementById('quantity_cart_mesage_stock');
         quantity_cart_mesage_stock.classList.remove('d-none');
@@ -519,14 +513,14 @@ function add_to_cart() {
 
     firebase.database().ref("products").child(cart_obj.id).once('value')
         .then(function (snapshot) {
+
+            var quantity_button_text = document.getElementById('quantity_button_text');
+            var quantity_cart_mesage = document.getElementById('quantity_cart_mesage');
+
             if (snapshot.exists()) {
 
-
                 // Product pehle se hai
-                var quantity_cart_mesage = document.getElementById('quantity_cart_mesage');
-                quantity_cart_mesage.classList.remove('d-none');
-                quantity_cart_mesage.classList.add('d-block');
-
+                quantity_button_text.innerText = 'Quantity Updated';
 
                 console.log("add ho gaya!");
                 firebase.database().ref("products").child(cart_obj.id).update({
@@ -534,23 +528,24 @@ function add_to_cart() {
                 });
                 console.log('qunatity update ho gai!');
 
-
-
             } else {
                 // Product nahi hai
                 console.log("Adding new product!");
                 firebase.database().ref("products").child(cart_obj.id).set(cart_obj);
 
-
                 // quantity button text change
-                var quantity_button_text = document.getElementById('quantity_button_text');
                 quantity_button_text.innerText = 'Item added to cart';
 
-                var quantity_cart_mesage = document.getElementById('quantity_cart_mesage');
-                quantity_cart_mesage.classList.remove('d-none');
-                quantity_cart_mesage.classList.add('d-block');
                 console.log("add ho gaya!");
             }
+
+            quantity_cart_mesage.classList.remove('d-none');
+            quantity_cart_mesage.classList.add('d-block');
+
+            setTimeout(function () {
+                quantity_cart_mesage.classList.add('d-none');
+                quantity_cart_mesage.classList.remove('d-block');
+            }, 1000);
         });
 };
 

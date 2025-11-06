@@ -499,17 +499,39 @@ function add_to_cart() {
 
     firebase.database().ref("products").child(cart_obj.id).once('value')
         .then(function (snapshot) {
+
+            var quantity_button_text = document.getElementById('quantity_button_text');
+            var quantity_cart_mesage = document.getElementById('quantity_cart_mesage');
+
             if (snapshot.exists()) {
+
                 // Product pehle se hai
-                console.log("Product already in cart!");
+                quantity_button_text.innerText = 'Quantity Updated';
+
+                console.log("add ho gaya!");
                 firebase.database().ref("products").child(cart_obj.id).update({
                     pro_quantity: qunatity
                 });
-                console
+                console.log('qunatity update ho gai!');
+
             } else {
                 // Product nahi hai
                 console.log("Adding new product!");
                 firebase.database().ref("products").child(cart_obj.id).set(cart_obj);
+
+                // quantity button text change
+                quantity_button_text.innerText = 'Item added to cart';
+
+                console.log("add ho gaya!");
             }
+
+            quantity_cart_mesage.classList.remove('d-none');
+            quantity_cart_mesage.classList.add('d-block');
+
+            setTimeout(function () {
+                quantity_cart_mesage.classList.add('d-none');
+                quantity_cart_mesage.classList.remove('d-block');
+            }, 1000);
         });
-    }
+
+}
